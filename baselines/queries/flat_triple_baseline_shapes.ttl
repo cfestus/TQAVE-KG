@@ -1,0 +1,69 @@
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix etd: <https://alfie-project.eu/etd-hub#> .
+
+etd:NoRelationInstancesShape
+    a sh:NodeShape ;
+    sh:targetSubjectsOf rdf:type ;
+    sh:sparql [
+        sh:message "Flat baseline must not contain etd:Relation instances." ;
+        sh:select """
+            SELECT $this
+            WHERE {
+              $this a etd:Relation .
+            }
+        """ ;
+    ] .
+
+etd:NoEvidenceInstancesShape
+    a sh:NodeShape ;
+    sh:targetSubjectsOf rdf:type ;
+    sh:sparql [
+        sh:message "Flat baseline must not contain etd:Evidence instances." ;
+        sh:select """
+            SELECT $this
+            WHERE {
+              $this a etd:Evidence .
+            }
+        """ ;
+    ] .
+
+etd:NoConfidencePredicateShape
+    a sh:NodeShape ;
+    sh:targetSubjectsOf etd:confidence ;
+    sh:property [
+        sh:path etd:confidence ;
+        sh:maxCount 0 ;
+    ] .
+
+etd:NoSourceEntityPredicateShape
+    a sh:NodeShape ;
+    sh:targetSubjectsOf etd:hasSourceEntity ;
+    sh:property [
+        sh:path etd:hasSourceEntity ;
+        sh:maxCount 0 ;
+    ] .
+
+etd:NoAnswersQuestionPredicateShape
+    a sh:NodeShape ;
+    sh:targetSubjectsOf etd:answersQuestion ;
+    sh:property [
+        sh:path etd:answersQuestion ;
+        sh:maxCount 0 ;
+    ] .
+
+etd:AtLeastOneDirectRelationShape
+    a sh:NodeShape ;
+    sh:targetNode etd:FlatTripleBaselineCheck ;
+    sh:sparql [
+        sh:message "Flat baseline must contain at least one direct non-metadata relation triple." ;
+        sh:select """
+            SELECT $this
+            WHERE {
+              FILTER NOT EXISTS {
+                ?subject ?predicate ?object .
+                FILTER(?predicate NOT IN (rdf:type, <http://www.w3.org/2000/01/rdf-schema#label>))
+              }
+            }
+        """ ;
+    ] .

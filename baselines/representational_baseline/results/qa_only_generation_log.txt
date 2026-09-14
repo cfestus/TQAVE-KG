@@ -1,0 +1,85 @@
+Q&A-only baseline generation log
+
+Generated at: 2026-09-11T19:31:34.097007+00:00
+
+Input:
+data/ai_ethics_datasets.json
+
+Output:
+baselines/representational_baseline/output/qa_only_baseline.ttl
+
+Script:
+baselines/representational_baseline/scripts/build_qa_only_baseline.py
+
+Method:
+Deterministic RDF export from the original consultation dataset. No LLM extraction, no relation extraction, no evidence extraction, no inference, no manual filtering, and no manual sampling were used.
+
+LLM used: No
+Manual sampling used: No
+Manual filtering used: No
+
+Included RDF classes:
+etd:Theme
+etd:Question
+etd:Answer
+etd:Expert
+etd:Vote
+
+Excluded RDF classes:
+etd:Relation
+etd:Evidence
+etd:Entity
+etd:DiscourseUnit
+etd:FieldAssertion
+
+Source counts:
+Themes: 12
+Questions: 8
+Answers: 21
+Experts: 57
+Votes: 26
+
+RDF node counts:
+Themes: 12
+Questions: 8
+Answers: 21
+Experts: 57
+Votes: 26
+Triples: 1132
+
+Link counts:
+Question-theme links: 8
+Answer-question links: 21
+Answer-expert links: 21
+Answer-parent links: 5
+Answer-vote links: 26
+Vote-answer links: 26
+Vote-expert links: 26
+Expert-vote links: 26
+
+Strict exclusion counts:
+Relation nodes: 0
+Evidence nodes: 0
+Entity nodes: 0
+DiscourseUnit nodes: 0
+FieldAssertion nodes: 0
+hasEvidence triples: 0
+confidence triples: 0
+isInferred triples: 0
+hasSourceEntity triples: 0
+
+Query summary:
+Q1 Question-answer tracing: actual_count=21, score=1.0, passed=true
+Q2 Theme-level aggregation: actual_count=5, score=1.0, passed=true
+Q3 Expert contribution tracing: actual_count=21, score=1.0, passed=true
+Q4 Vote-supported answer analysis: actual_count=10, score=1.0, passed=true
+Q5 Evidence-backed claim tracing: actual_count=0, score=0.0, passed=true
+Q6 Confidence-aware filtering: actual_count=0, score=0.0, passed=true
+Q7 Inference-aware querying: actual_count=0, score=0.0, passed=true
+Q8 Claim-to-discourse traceability: actual_count=0, score=0.0, passed=true
+Q9 Reified relation node absence: actual_count=0, score=0.0, passed=true
+Q10 Evidence node absence: actual_count=0, score=0.0, passed=true
+Mean score without SHACL: 0.4
+
+Final status:
+PASS

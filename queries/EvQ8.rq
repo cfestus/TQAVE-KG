@@ -1,0 +1,36 @@
+# Evaluation question
+# Can relations be followed across theme, question, answer, expert, vote, and evidence paths where those structures are present?
+
+PREFIX etd: <https://alfie-project.eu/etd-hub#>
+
+SELECT DISTINCT
+       ?theme
+       ?question
+       ?answer
+       ?author
+       ?vote
+       ?voter
+       ?relation
+       ?evidence
+WHERE {
+    ?relation a etd:Relation ;
+              etd:relation_kind ?kind ;
+              etd:field ?field ;
+              etd:hasSourceEntity ?answer ;
+              etd:hasEvidence ?evidence .
+
+    FILTER(STR(?kind) = "extracted_semantic")
+    FILTER(STR(?field) = "answer.description")
+
+    ?answer a etd:Answer ;
+            etd:answersQuestion ?question ;
+            etd:authoredBy ?author .
+
+    ?question etd:belongsToTheme ?theme .
+
+    OPTIONAL {
+        ?answer etd:receivesVote ?vote .
+        ?vote etd:castBy ?voter .
+    }
+}
+ORDER BY ?theme ?question ?answer ?relation ?vote

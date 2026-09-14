@@ -1,0 +1,232 @@
+Flat text-to-triple baseline generation log
+
+Generated at: 2026-09-11T19:37:32.717804+00:00
+Input file: output/etd_hub_enhanced_kg47.ttl
+Input SHA-256: 88c321e97b3e8c58fb3fb4aa49863700e6f61428513de130a05e1a5f4d54fd8f
+Output file: baselines/output/flat_triple_baseline.ttl
+Output SHA-256: 3c0ba083a4f90869ea687f7ac42dfdbb986172dc58beea9f5f5ede1c4736b85c
+Script path: baselines/scripts/build_flat_triple_baseline.py
+
+Method description:
+Deterministic flattening of validated TQAVE-KG reified relation nodes. Each complete etd:Relation node was transformed from relation-level subject/predicate/object metadata into a direct RDF triple. Relation-level evidence, confidence, inference, source-entity, discourse, vote and provenance metadata were deliberately excluded.
+
+LLM used: No
+Manual sampling used: No
+Manual filtering used: No
+
+Relation count read from TQAVE-KG: 333
+Complete relation count: 333
+Incomplete relation count: 0
+Flattened triple attempt count: 210
+Unique flattened triple count: 210
+Duplicate flattened triple count: 0
+
+Predicate distribution summary:
+https://alfie-project.eu/etd-hub#affects: 9
+https://alfie-project.eu/etd-hub#hasSubjectDescription: 8
+https://alfie-project.eu/etd-hub#referencesSource: 8
+https://alfie-project.eu/etd-hub#causes: 7
+https://alfie-project.eu/etd-hub#includes: 7
+https://alfie-project.eu/etd-hub#show: 7
+https://alfie-project.eu/etd-hub#particularlyAffects: 6
+https://alfie-project.eu/etd-hub#favored: 4
+https://alfie-project.eu/etd-hub#hasurl: 4
+https://alfie-project.eu/etd-hub#leadTo: 4
+https://alfie-project.eu/etd-hub#analyzed: 3
+https://alfie-project.eu/etd-hub#exhibitsRisk: 3
+https://alfie-project.eu/etd-hub#hostedBy: 3
+https://alfie-project.eu/etd-hub#pay: 3
+https://alfie-project.eu/etd-hub#predict: 3
+https://alfie-project.eu/etd-hub#trainedOn: 3
+https://alfie-project.eu/etd-hub#charged: 2
+https://alfie-project.eu/etd-hub#coAuthored: 2
+https://alfie-project.eu/etd-hub#discriminateAgainst: 2
+https://alfie-project.eu/etd-hub#errorRate: 2
+https://alfie-project.eu/etd-hub#face: 2
+https://alfie-project.eu/etd-hub#isAnImpactOf: 2
+https://alfie-project.eu/etd-hub#ledTo: 2
+https://alfie-project.eu/etd-hub#perpetuate: 2
+https://alfie-project.eu/etd-hub#predicted: 2
+https://alfie-project.eu/etd-hub#provide: 2
+https://alfie-project.eu/etd-hub#reinforce: 2
+https://alfie-project.eu/etd-hub#underrepresentation: 2
+https://alfie-project.eu/etd-hub#usedFor: 2
+https://alfie-project.eu/etd-hub#addressed: 1
+https://alfie-project.eu/etd-hub#adopting: 1
+https://alfie-project.eu/etd-hub#affecting: 1
+https://alfie-project.eu/etd-hub#amplify: 1
+https://alfie-project.eu/etd-hub#applying: 1
+https://alfie-project.eu/etd-hub#areBeingForcedToRetain: 1
+https://alfie-project.eu/etd-hub#argued: 1
+https://alfie-project.eu/etd-hub#ask: 1
+https://alfie-project.eu/etd-hub#auditing: 1
+https://alfie-project.eu/etd-hub#available: 1
+https://alfie-project.eu/etd-hub#availableOn: 1
+https://alfie-project.eu/etd-hub#beginConducting: 1
+https://alfie-project.eu/etd-hub#canIncorporate: 1
+https://alfie-project.eu/etd-hub#cannotBeDone: 1
+https://alfie-project.eu/etd-hub#challenge: 1
+https://alfie-project.eu/etd-hub#compare: 1
+https://alfie-project.eu/etd-hub#consider: 1
+https://alfie-project.eu/etd-hub#contain: 1
+https://alfie-project.eu/etd-hub#contained: 1
+https://alfie-project.eu/etd-hub#content: 1
+https://alfie-project.eu/etd-hub#correlatedWith: 1
+https://alfie-project.eu/etd-hub#creation: 1
+https://alfie-project.eu/etd-hub#demonstrated: 1
+https://alfie-project.eu/etd-hub#dependOn: 1
+https://alfie-project.eu/etd-hub#detection: 1
+https://alfie-project.eu/etd-hub#discourage: 1
+https://alfie-project.eu/etd-hub#discriminatedAgainst: 1
+https://alfie-project.eu/etd-hub#distribution: 1
+https://alfie-project.eu/etd-hub#documented: 1
+https://alfie-project.eu/etd-hub#enable: 1
+https://alfie-project.eu/etd-hub#encode: 1
+https://alfie-project.eu/etd-hub#encourage: 1
+https://alfie-project.eu/etd-hub#enforcement: 1
+https://alfie-project.eu/etd-hub#enhanced: 1
+https://alfie-project.eu/etd-hub#exhibit: 1
+https://alfie-project.eu/etd-hub#exposed: 1
+https://alfie-project.eu/etd-hub#favor: 1
+https://alfie-project.eu/etd-hub#feature: 1
+https://alfie-project.eu/etd-hub#flag: 1
+https://alfie-project.eu/etd-hub#flagged: 1
+https://alfie-project.eu/etd-hub#higherPremium: 1
+https://alfie-project.eu/etd-hub#incorporate: 1
+https://alfie-project.eu/etd-hub#infer: 1
+https://alfie-project.eu/etd-hub#isAConsiderationWhenYouDonTHave: 1
+https://alfie-project.eu/etd-hub#isARequirementFor: 1
+https://alfie-project.eu/etd-hub#isAvailableOn: 1
+https://alfie-project.eu/etd-hub#isCausing: 1
+https://alfie-project.eu/etd-hub#isDifficult: 1
+https://alfie-project.eu/etd-hub#isNoGuaranteeOf: 1
+https://alfie-project.eu/etd-hub#isNotRelevantTo: 1
+https://alfie-project.eu/etd-hub#isPubliclyAvailable: 1
+https://alfie-project.eu/etd-hub#isRelevantTo: 1
+https://alfie-project.eu/etd-hub#isToSelect: 1
+https://alfie-project.eu/etd-hub#isUsedFor: 1
+https://alfie-project.eu/etd-hub#label: 1
+https://alfie-project.eu/etd-hub#leadingTo: 1
+https://alfie-project.eu/etd-hub#limit: 1
+https://alfie-project.eu/etd-hub#lowerAccuracyFor: 1
+https://alfie-project.eu/etd-hub#make: 1
+https://alfie-project.eu/etd-hub#makeItEasierToDecideOn: 1
+https://alfie-project.eu/etd-hub#marking: 1
+https://alfie-project.eu/etd-hub#mitigates: 1
+https://alfie-project.eu/etd-hub#notConsider: 1
+https://alfie-project.eu/etd-hub#overRely: 1
+https://alfie-project.eu/etd-hub#overlook: 1
+https://alfie-project.eu/etd-hub#partOfDomain: 1
+https://alfie-project.eu/etd-hub#paying: 1
+https://alfie-project.eu/etd-hub#perform: 1
+https://alfie-project.eu/etd-hub#performed: 1
+https://alfie-project.eu/etd-hub#perpetuation: 1
+https://alfie-project.eu/etd-hub#perpetuationOf: 1
+https://alfie-project.eu/etd-hub#predictedAcademicFailure: 1
+https://alfie-project.eu/etd-hub#predicting: 1
+https://alfie-project.eu/etd-hub#preference: 1
+https://alfie-project.eu/etd-hub#provideAccessTo: 1
+https://alfie-project.eu/etd-hub#published: 1
+https://alfie-project.eu/etd-hub#publishedon: 1
+https://alfie-project.eu/etd-hub#raise: 1
+https://alfie-project.eu/etd-hub#receive: 1
+https://alfie-project.eu/etd-hub#reinforcement: 1
+https://alfie-project.eu/etd-hub#retain: 1
+https://alfie-project.eu/etd-hub#retaining: 1
+https://alfie-project.eu/etd-hub#risk: 1
+https://alfie-project.eu/etd-hub#searchingFor: 1
+https://alfie-project.eu/etd-hub#select: 1
+https://alfie-project.eu/etd-hub#share: 1
+https://alfie-project.eu/etd-hub#showing: 1
+https://alfie-project.eu/etd-hub#simulate: 1
+https://alfie-project.eu/etd-hub#spend: 1
+https://alfie-project.eu/etd-hub#spent: 1
+https://alfie-project.eu/etd-hub#startWith: 1
+https://alfie-project.eu/etd-hub#test: 1
+https://alfie-project.eu/etd-hub#trainingOn: 1
+https://alfie-project.eu/etd-hub#trust: 1
+https://alfie-project.eu/etd-hub#undermine: 1
+https://alfie-project.eu/etd-hub#understand: 1
+https://alfie-project.eu/etd-hub#useOf: 1
+https://alfie-project.eu/etd-hub#usedToIdentify: 1
+https://alfie-project.eu/etd-hub#varied: 1
+https://alfie-project.eu/etd-hub#vary: 1
+https://alfie-project.eu/etd-hub#violation: 1
+https://alfie-project.eu/etd-hub#willLeadTo: 1
+
+Included content:
+Direct subject-predicate-object triples derived from eligible reified relations.
+rdfs:label, etd:name, etd:canonicalLabel and skos:prefLabel values for referenced subject/object nodes when present.
+Useful rdf:type assertions for referenced subject/object entity nodes, excluding TQAVE discourse artefacts.
+
+Excluded content:
+etd:Relation, etd:Evidence, etd:DiscourseUnit, etd:FieldAssertion, etd:Vote, etd:Answer, etd:Question, etd:Theme, etd:Expert.
+Relation-level provenance, evidence, confidence, inference, source-entity, vote and discourse predicates.
+owl:sameAs and etd:ontology_uri.
+
+Policy exclusions applied while flattening:
+excluded_subject_class: 20
+forbidden_predicate::https://alfie-project.eu/etd-hub#answersQuestion: 21
+forbidden_predicate::https://alfie-project.eu/etd-hub#authoredBy: 21
+forbidden_predicate::https://alfie-project.eu/etd-hub#belongsToTheme: 8
+forbidden_predicate::https://alfie-project.eu/etd-hub#castBy: 26
+forbidden_predicate::https://alfie-project.eu/etd-hub#receivesVote: 26
+forbidden_predicate::https://alfie-project.eu/etd-hub#source: 1
+
+Source graph counts:
+Total triples: 38806
+Reified relation nodes: 333
+
+Strict exclusion counts:
+answer_nodes: 0
+answersQuestion_triples: 0
+authoredBy_triples: 0
+belongsToTheme_triples: 0
+castBy_triples: 0
+castVote_triples: 0
+confidence_triples: 0
+context_source_triples: 0
+discourse_unit_nodes: 0
+evidenceText_triples: 0
+evidence_nodes: 0
+expert_nodes: 0
+field_assertion_nodes: 0
+field_triples: 0
+groundingMethod_triples: 0
+groundingStatus_triples: 0
+hasEvidence_triples: 0
+hasSourceEntity_triples: 0
+hasVote_triples: 0
+inferenceRule_triples: 0
+isInferred_triples: 0
+object_triples: 0
+ontology_uri_triples: 0
+owl_sameAs_triples: 0
+parentAnswer_triples: 0
+predicate_triples: 0
+question_nodes: 0
+receivesVote_triples: 0
+relation_nodes: 0
+source_doc_id_triples: 0
+source_triples: 0
+subject_triples: 0
+theme_nodes: 0
+vote_nodes: 0
+
+Query summary:
+Q1 Entity/direct relation retrieval: actual_count=25, score=1.0, passed=true
+Q2 Predicate distribution: actual_count=131, score=1.0, passed=true
+Q3 Question-answer tracing: actual_count=0, score=0.0, passed=true
+Q4 Theme-level aggregation: actual_count=0, score=0.0, passed=true
+Q5 Expert contribution tracing: actual_count=0, score=0.0, passed=true
+Q6 Vote-supported answer analysis: actual_count=0, score=0.0, passed=true
+Q7 Evidence-backed claim tracing: actual_count=0, score=0.0, passed=true
+Q8 Confidence-aware filtering: actual_count=0, score=0.0, passed=true
+Q9 Inference-aware querying: actual_count=0, score=0.0, passed=true
+Q10 Claim-to-discourse traceability: actual_count=0, score=0.0, passed=true
+Q11 Reified relation provenance: actual_count=0, score=0.0, passed=true
+Q12 Evidence node absence: actual_count=0, score=0.0, passed=true
+Mean score without SHACL: 0.1
+
+Final status:
+PASS

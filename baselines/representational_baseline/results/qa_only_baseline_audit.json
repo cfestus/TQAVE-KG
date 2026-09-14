@@ -1,0 +1,87 @@
+{
+  "input_file": "data/ai_ethics_datasets.json",
+  "output_file": "baselines/representational_baseline/output/qa_only_baseline.ttl",
+  "generation_method": "deterministic_q_and_a_only_rdf_export",
+  "llm_used": false,
+  "manual_filtering": false,
+  "manual_sampling": false,
+  "qa_only_shacl_shapes_created": true,
+  "included_classes": [
+    "etd:Theme",
+    "etd:Question",
+    "etd:Answer",
+    "etd:Expert",
+    "etd:Vote"
+  ],
+  "excluded_classes": [
+    "etd:Relation",
+    "etd:Evidence",
+    "etd:Entity",
+    "etd:DiscourseUnit",
+    "etd:FieldAssertion"
+  ],
+  "missing_top_level_arrays": [],
+  "source_counts": {
+    "themes": 12,
+    "questions": 8,
+    "answers": 21,
+    "experts": 57,
+    "votes": 26
+  },
+  "rdf_counts": {
+    "themes": 12,
+    "questions": 8,
+    "answers": 21,
+    "experts": 57,
+    "votes": 26,
+    "total_triples": 1132
+  },
+  "link_counts": {
+    "question_theme_links": 8,
+    "answer_question_links": 21,
+    "answer_expert_links": 21,
+    "answer_parent_links": 5,
+    "answer_vote_links": 26,
+    "vote_answer_links": 26,
+    "vote_expert_links": 26,
+    "expert_vote_links": 26
+  },
+  "optional_link_counts": {
+    "theme_authored_by_links": 12,
+    "question_authored_by_links": 8
+  },
+  "strict_exclusion_counts": {
+    "relation_nodes": 0,
+    "evidence_nodes": 0,
+    "entity_nodes": 0,
+    "discourse_unit_nodes": 0,
+    "field_assertion_nodes": 0,
+    "subject_triples": 0,
+    "predicate_triples": 0,
+    "object_triples": 0,
+    "hasEvidence_triples": 0,
+    "evidenceText_triples": 0,
+    "confidence_triples": 0,
+    "isInferred_triples": 0,
+    "inferenceRule_triples": 0,
+    "hasSourceEntity_triples": 0,
+    "groundingStatus_triples": 0,
+    "groundingMethod_triples": 0,
+    "ontology_uri_triples": 0,
+    "owl_sameAs_triples": 0
+  },
+  "missing_references": {
+    "missing_question_theme_links": [],
+    "missing_answer_question_links": [],
+    "missing_answer_expert_links": [],
+    "missing_answer_parent_links": [],
+    "missing_vote_answer_links": [],
+    "missing_vote_expert_links": []
+  },
+  "query_summary": {
+    "query_results_file": "baselines/representational_baseline/results/qa_only_query_results.json",
+    "mean_representational_score_without_shacl": 0.4
+  },
+  "errors": [],
+  "passed": true
+}

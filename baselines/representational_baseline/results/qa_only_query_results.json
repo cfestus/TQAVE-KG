@@ -1,0 +1,89 @@
+{
+  "graph_file": "baselines/representational_baseline/output/qa_only_baseline.ttl",
+  "query_results": [
+    {
+      "query_id": "Q1",
+      "capability": "Question-answer tracing",
+      "expected": "21 rows",
+      "actual_count": 21,
+      "score": 1.0,
+      "passed": true
+    },
+    {
+      "query_id": "Q2",
+      "capability": "Theme-level aggregation",
+      "expected": "themes with one or more answers",
+      "actual_count": 5,
+      "score": 1.0,
+      "passed": true,
+      "expected_count": 5
+    },
+    {
+      "query_id": "Q3",
+      "capability": "Expert contribution tracing",
+      "expected": "21 rows",
+      "actual_count": 21,
+      "score": 1.0,
+      "passed": true
+    },
+    {
+      "query_id": "Q4",
+      "capability": "Vote-supported answer analysis",
+      "expected": "answers with one or more votes",
+      "actual_count": 10,
+      "score": 1.0,
+      "passed": true,
+      "expected_count": 10
+    },
+    {
+      "query_id": "Q5",
+      "capability": "Evidence-backed claim tracing",
+      "expected": "0 rows",
+      "actual_count": 0,
+      "score": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "Q6",
+      "capability": "Confidence-aware filtering",
+      "expected": "0 rows",
+      "actual_count": 0,
+      "score": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "Q7",
+      "capability": "Inference-aware querying",
+      "expected": "0 rows",
+      "actual_count": 0,
+      "score": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "Q8",
+      "capability": "Claim-to-discourse traceability",
+      "expected": "0 rows",
+      "actual_count": 0,
+      "score": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "Q9",
+      "capability": "Reified relation node absence",
+      "expected": "0 rows",
+      "actual_count": 0,
+      "score": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "Q10",
+      "capability": "Evidence node absence",
+      "expected": "0 rows",
+      "actual_count": 0,
+      "score": 0.0,
+      "passed": true
+    }
+  ],
+  "mean_representational_score_without_shacl": 0.4,
+  "notes": "Q&A-only baseline supports discourse-level navigation but deliberately lacks claim-level evidence, confidence, inference and reified relation provenance."
+}

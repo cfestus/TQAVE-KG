@@ -1,0 +1,41 @@
+# Evaluation question
+# Which themes contain the largest numbers of questions, answers, or extracted relations? 
+
+PREFIX etd: <https://alfie-project.eu/etd-hub#>
+
+SELECT ?theme
+       ((COUNT(DISTINCT ?qval) - MAX(IF(?qval = "", 1, 0))) AS ?questions)
+       ((COUNT(DISTINCT ?aval) - MAX(IF(?aval = "", 1, 0))) AS ?answers)
+       ((COUNT(DISTINCT ?rval) - MAX(IF(?rval = "", 1, 0))) AS ?relations)
+WHERE {
+    {
+        SELECT ?theme ("" AS ?qval) ("" AS ?aval) ("" AS ?rval) WHERE {
+            ?theme a etd:Theme .
+        }
+    }
+    UNION
+    {
+        SELECT ?theme (STR(?q) AS ?qval) ("" AS ?aval) ("" AS ?rval) WHERE {
+            ?q etd:belongsToTheme ?theme .
+        }
+    }
+    UNION
+    {
+        SELECT ?theme ("" AS ?qval) (STR(?a) AS ?aval) ("" AS ?rval) WHERE {
+            ?q2 etd:belongsToTheme ?theme .
+            ?a etd:answersQuestion ?q2 .
+        }
+    }
+    UNION
+    {
+        SELECT ?theme ("" AS ?qval) ("" AS ?aval) (STR(?r) AS ?rval) WHERE {
+            ?theme a etd:Theme .
+            ?r a etd:Relation ;
+               etd:hasSourceEntity ?theme ;
+               etd:relation_kind ?kind .
+            FILTER(STR(?kind) = "extracted_semantic")
+        }
+    }
+}
+GROUP BY ?theme
+ORDER BY DESC(?relations) DESC(?answers) DESC(?questions)

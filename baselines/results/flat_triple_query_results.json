@@ -1,0 +1,115 @@
+{
+  "graph_file": "baselines/output/flat_triple_baseline.ttl",
+  "query_results": [
+    {
+      "query_id": "Q1",
+      "capability": "Entity/direct relation retrieval",
+      "expected": "> 0 rows",
+      "actual_count": 25,
+      "score": 1.0,
+      "passed": true
+    },
+    {
+      "query_id": "Q2",
+      "capability": "Predicate distribution",
+      "expected": "> 0 predicate groups",
+      "actual_count": 131,
+      "score": 1.0,
+      "passed": true
+    },
+    {
+      "query_id": "Q3",
+      "capability": "Question-answer tracing",
+      "expected": "0 rows",
+      "actual_count": 0,
+      "score": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "Q4",
+      "capability": "Theme-level aggregation",
+      "expected": "0 rows",
+      "actual_count": 0,
+      "score": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "Q5",
+      "capability": "Expert contribution tracing",
+      "expected": "0 rows",
+      "actual_count": 0,
+      "score": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "Q6",
+      "capability": "Vote-supported answer analysis",
+      "expected": "0 rows",
+      "actual_count": 0,
+      "score": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "Q7",
+      "capability": "Evidence-backed claim tracing",
+      "expected": "0 rows",
+      "actual_count": 0,
+      "score": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "Q8",
+      "capability": "Confidence-aware filtering",
+      "expected": "0 rows",
+      "actual_count": 0,
+      "score": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "Q9",
+      "capability": "Inference-aware querying",
+      "expected": "0 rows",
+      "actual_count": 0,
+      "score": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "Q10",
+      "capability": "Claim-to-discourse traceability",
+      "expected": "0 rows",
+      "actual_count": 0,
+      "score": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "Q11",
+      "capability": "Reified relation provenance",
+      "expected": "0 rows",
+      "actual_count": 0,
+      "score": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "Q12",
+      "capability": "Evidence node absence",
+      "expected": "0 rows",
+      "actual_count": 0,
+      "score": 0.0,
+      "passed": true
+    }
+  ],
+  "capability_scores": {
+    "Question-answer tracing": 0.0,
+    "Theme-level aggregation": 0.0,
+    "Expert contribution tracing": 0.0,
+    "Vote-supported answer analysis": 0.0,
+    "Evidence-backed claim tracing": 0.0,
+    "Claim-to-discourse traceability": 0.0,
+    "Reified relation provenance": 0.0,
+    "Confidence-aware filtering": 0.0,
+    "Inference-aware querying": 0.0,
+    "Entity/direct relation retrieval": 1.0
+  },
+  "mean_representational_score_without_shacl": 0.1,
+  "notes": "Flat text-to-triple baseline supports direct entity-relation retrieval but deliberately lacks discourse, evidence, confidence, inference and reified relation provenance."
+}

@@ -1,0 +1,110 @@
+# Q1: Answer to Question and Theme tracing
+# Expected result: 21 rows
+PREFIX etd: <https://alfie-project.eu/etd-hub#>
+
+SELECT ?answer ?question ?theme
+WHERE {
+  ?answer a etd:Answer ;
+          etd:answersQuestion ?question .
+  ?question a etd:Question ;
+            etd:belongsToTheme ?theme .
+}
+ORDER BY ?answer
+
+# Q2: Theme-level answer aggregation
+# Expected result: themes with one or more answers
+PREFIX etd: <https://alfie-project.eu/etd-hub#>
+
+SELECT ?theme (COUNT(DISTINCT ?answer) AS ?answerCount)
+WHERE {
+  ?answer a etd:Answer ;
+          etd:answersQuestion ?question .
+  ?question etd:belongsToTheme ?theme .
+}
+GROUP BY ?theme
+ORDER BY DESC(?answerCount)
+
+# Q3: Expert contribution tracing through answers
+# Expected result: 21 rows
+PREFIX etd: <https://alfie-project.eu/etd-hub#>
+
+SELECT ?answer ?expert
+WHERE {
+  ?answer a etd:Answer ;
+          etd:authoredBy ?expert .
+}
+ORDER BY ?answer
+
+# Q4: Vote-supported answer analysis
+# Expected result: answers with one or more votes
+PREFIX etd: <https://alfie-project.eu/etd-hub#>
+
+SELECT ?answer (COUNT(DISTINCT ?vote) AS ?voteCount)
+WHERE {
+  ?answer a etd:Answer ;
+          etd:hasVote ?vote .
+}
+GROUP BY ?answer
+ORDER BY DESC(?voteCount)
+
+# Q5: Evidence-backed claim tracing negative control
+# Expected result: 0 rows
+PREFIX etd: <https://alfie-project.eu/etd-hub#>
+
+SELECT ?relation ?evidence
+WHERE {
+  ?relation a etd:Relation ;
+            etd:hasEvidence ?evidence .
+}
+
+# Q6: Confidence-aware filtering negative control
+# Expected result: 0 rows
+PREFIX etd: <https://alfie-project.eu/etd-hub#>
+
+SELECT ?relation ?confidence
+WHERE {
+  ?relation a etd:Relation ;
+            etd:confidence ?confidence .
+}
+
+# Q7: Inference-aware querying negative control
+# Expected result: 0 rows
+PREFIX etd: <https://alfie-project.eu/etd-hub#>
+
+SELECT ?relation ?isInferred
+WHERE {
+  ?relation a etd:Relation ;
+            etd:isInferred ?isInferred .
+}
+
+# Q8: Claim-to-discourse traceability negative control
+# Expected result: 0 rows
+PREFIX etd: <https://alfie-project.eu/etd-hub#>
+
+SELECT ?relation ?answer ?question ?theme ?expert
+WHERE {
+  ?relation a etd:Relation ;
+            etd:hasSourceEntity ?answer .
+  ?answer a etd:Answer ;
+          etd:answersQuestion ?question ;
+          etd:authoredBy ?expert .
+  ?question etd:belongsToTheme ?theme .
+}
+
+# Q9: Reified relation node absence
+# Expected result: 0 rows
+PREFIX etd: <https://alfie-project.eu/etd-hub#>
+
+SELECT ?relation
+WHERE {
+  ?relation a etd:Relation .
+}
+
+# Q10: Evidence node absence
+# Expected result: 0 rows
+PREFIX etd: <https://alfie-project.eu/etd-hub#>
+
+SELECT ?evidence
+WHERE {
+  ?evidence a etd:Evidence .
+}

@@ -1,0 +1,36 @@
+# Evaluation question
+# Can an answer and its extracted relations be traced to the question and theme from which they originated? 
+
+PREFIX etd: <https://alfie-project.eu/etd-hub#>
+
+SELECT ?theme ?question ?answer ?expert
+       ((COUNT(DISTINCT ?relVal) - MAX(IF(?relVal = "", 1, 0))) AS ?semanticRelations)
+WHERE {
+    {
+        SELECT ?theme ?question ?answer ?expert ("" AS ?relVal) WHERE {
+            ?answer a etd:Answer ;
+                    etd:answersQuestion ?question ;
+                    etd:authoredBy ?expert .
+            ?question etd:belongsToTheme ?theme .
+        }
+    }
+    UNION
+    {
+        SELECT ?theme ?question ?answer ?expert (STR(?relation) AS ?relVal) WHERE {
+            ?answer a etd:Answer ;
+                    etd:answersQuestion ?question ;
+                    etd:authoredBy ?expert .
+            ?question etd:belongsToTheme ?theme .
+
+            ?relation a etd:Relation ;
+                      etd:hasSourceEntity ?answer ;
+                      etd:field ?field ;
+                      etd:relation_kind ?kind .
+
+            FILTER(STR(?field) = "answer.description")
+            FILTER(STR(?kind) = "extracted_semantic")
+        }
+    }
+}
+GROUP BY ?theme ?question ?answer ?expert
+ORDER BY ?theme ?question ?answer

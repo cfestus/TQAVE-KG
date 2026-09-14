@@ -1,0 +1,53 @@
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix etd: <https://alfie-project.eu/etd-hub#> .
+
+etd:QuestionThemeShape
+    a sh:NodeShape ;
+    sh:targetClass etd:Question ;
+    sh:property [
+        sh:path etd:belongsToTheme ;
+        sh:minCount 1 ;
+        sh:maxCount 1 ;
+        sh:class etd:Theme ;
+    ] .
+
+etd:AnswerQuestionShape
+    a sh:NodeShape ;
+    sh:targetClass etd:Answer ;
+    sh:property [
+        sh:path etd:answersQuestion ;
+        sh:minCount 1 ;
+        sh:maxCount 1 ;
+        sh:class etd:Question ;
+    ] .
+
+etd:AnswerAuthorShape
+    a sh:NodeShape ;
+    sh:targetClass etd:Answer ;
+    sh:property [
+        sh:path etd:authoredBy ;
+        sh:minCount 1 ;
+        sh:maxCount 1 ;
+        sh:class etd:Expert ;
+    ] .
+
+etd:VoteAnswerShape
+    a sh:NodeShape ;
+    sh:targetClass etd:Vote ;
+    sh:property [
+        sh:path etd:receivesVote ;
+        sh:minCount 1 ;
+        sh:maxCount 1 ;
+        sh:class etd:Answer ;
+    ] .
+
+etd:VoteExpertShape
+    a sh:NodeShape ;
+    sh:targetClass etd:Vote ;
+    sh:property [
+        sh:path etd:castBy ;
+        sh:minCount 1 ;
+        sh:maxCount 1 ;
+        sh:class etd:Expert ;
+    ] .

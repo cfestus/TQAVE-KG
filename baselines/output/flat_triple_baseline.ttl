@@ -1,0 +1,1245 @@
+@prefix aipo: <https://w3id.org/aipo#> .
+@prefix airo: <https://w3id.org/airo#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix brick: <https://brickschema.org/schema/Brick#> .
+@prefix csvw: <http://www.w3.org/ns/csvw#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcam: <http://purl.org/dc/dcam/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix doap: <http://usefulinc.com/ns/doap#> .
+@prefix dpv: <https://w3id.org/dpv#> .
+@prefix etd: <https://alfie-project.eu/etd-hub#> .
+@prefix fmo: <http://purl.org/fairness-metrics-ontology/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix odrl: <http://www.w3.org/ns/odrl/2/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prof: <http://www.w3.org/ns/dx/prof/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix sioc: <http://rdfs.org/sioc/ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sosa: <http://www.w3.org/ns/sosa/> .
+@prefix ssn: <http://www.w3.org/ns/ssn/> .
+@prefix time: <http://www.w3.org/2006/time#> .
+@prefix vair: <https://w3id.org/vair#> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix wgs: <https://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+etd:concept_3_6_basis_points_more_d3f508232a
+    rdf:type skos:Concept
+        etd:Concept,
+        etd:Entity ;
+    rdfs:label "3.6 Basis Points More"@en .
+
+etd:concept_7_9_basis_points_more_a7fd09f331
+    rdf:type skos:Concept
+        etd:Concept,
+        etd:Entity ;
+    rdfs:label "7.9 Basis Points More"@en .
+
+<https://alfie-project.eu/etd-hub/entity/aigovernanceframework/assessment-list-for-trustworthy-ai-948e1a36>
+    rdf:type etd:AiGovernanceFramework
+        etd:Entity ;
+    rdfs:label "Assessment List For Trustworthy AI"@en ;
+    etd:ask "Could the AI system affect human autonomy by generating over-reliance by end-users?"^^xsd:string .
+
+<https://alfie-project.eu/etd-hub/entity/aisystem/ai-powered-insurance-underwriting-systems-b3ebbf97>
+    rdf:type etd:AISystem
+        etd:Entity,
+        aipo:AISystem ;
+    rdfs:label "AI-Powered Insurance Underwriting Systems"@en ;
+    etd:higherPremium <https://alfie-project.eu/etd-hub/entity/populationgroup/minority-communities-dcdabbba> ;
+    etd:particularlyAffects <https://alfie-project.eu/etd-hub/entity/populationgroup/minority-communities-dcdabbba> ;
+    etd:show "bias in risk assessment and pricing"^^xsd:string .
+
+<https://alfie-project.eu/etd-hub/entity/aisystem/ai-recruitment-tool-e462f16a>
+    rdf:type etd:AISystem
+        etd:Entity,
+        aipo:AISystem ;
+    rdfs:label "AI Recruitment Tool"@en ;
+    etd:discriminatedAgainst "women"^^xsd:string ;
+    etd:favored <https://alfie-project.eu/etd-hub/entity/demographicgroup/black-women-28a2c47f> ;
+    etd:particularlyAffects <https://alfie-project.eu/etd-hub/entity/demographicgroup/women-879f92c8> ;
+    etd:trainedOn "predominantly male"^^xsd:string .
+
+<https://alfie-project.eu/etd-hub/entity/aisystem/automated-content-moderation-systems-a56b8d97>
+    rdf:type etd:AISystem
+        etd:Entity,
+        aipo:AISystem ;
+    rdfs:label "Automated Content Moderation Systems"@en ;
+    etd:particularlyAffects <https://alfie-project.eu/etd-hub/entity/demographicgroup/marginalized-communities-4bdcc85a> .
+
+<https://alfie-project.eu/etd-hub/entity/aisystem/automated-essay-scoring-aes-systems-c0ed1637>
+    rdf:type etd:AISystem
+        etd:Entity,
+        aipo:AISystem ;
+    rdfs:label "Automated Essay Scoring (AES) Systems"@en ;
+    etd:exhibitsRisk <https://alfie-project.eu/etd-hub/entity/biasrisk/systematic-bias-fbc06a4c> ;
+    etd:show "systematic bias"^^xsd:string .
+
+<https://alfie-project.eu/etd-hub/entity/aisystem/commercial-facial-recognition-systems-7e263c1b>
+    rdf:type etd:AISystem
+        etd:Entity,
+        aipo:AISystem ;
+    rdfs:label "Commercial Facial Recognition Systems"@en ;
+    etd:performed "32 times worse on dark-skinned women"^^xsd:string .
+
+<https://alfie-project.eu/etd-hub/entity/aisystem/compas-b3684239>
+    rdf:type etd:AISystem
+        etd:Entity,
+        aipo:AISystem ;
+    rdfs:label "COMPAS"@en ;
+    etd:exhibit "systemic racial disparities"^^xsd:string ;
+    etd:exhibitsRisk <https://alfie-project.eu/etd-hub/entity/racialbias/systemic-racial-disparities-33ff6476> ;
+    etd:flagged <https://alfie-project.eu/etd-hub/entity/demographicgroup/black-defendants-f7cbf8f5> ;
+    etd:predicted <https://alfie-project.eu/etd-hub/entity/populationgroup/black-individuals-0e57cf7c> ;
+    etd:trainedOn "“real-world” data"^^xsd:string .
+
+<https://alfie-project.eu/etd-hub/entity/aisystem/predictive-system-3ae93f26>
+    rdf:type etd:AISystem
+        etd:Entity,
+        aipo:AISystem ;
+    rdfs:label "Predictive System"@en ;
+    etd:exhibitsRisk <https://alfie-project.eu/etd-hub/entity/racialbias/systemic-racial-disparities-33ff6476> .
+
+<https://alfie-project.eu/etd-hub/entity/algorithm/tools-algorithms-08f8d8fb>
+    rdf:type etd:AISystem
+        etd:Entity,
+        aipo:AISystem ;
+    rdfs:label "Tools & Algorithms"@en ;
+    etd:select "tools & algorithms"^^xsd:string .
+
+<https://alfie-project.eu/etd-hub/entity/algorithm/wikidata-q12718609-79b4a598>
+    rdf:type etd:Entity
+        aipo:AISystem ;
+    rdfs:label "Statistical Methods"@en ;
+    etd:test "data/model fairness/quality"^^xsd:string .
+
+<https://alfie-project.eu/etd-hub/entity/algorithmicbias/algorithmic-decision-making-718d03c8>
+    rdf:type etd:AlgorithmicProcess
+        etd:Entity ;
+    rdfs:label "Algorithmic Decision-Making"@en ;
+    etd:partOfDomain <https://alfie-project.eu/etd-hub/entity/criminaljustice/criminal-justice-ff5cb81d> .
+
+<https://alfie-project.eu/etd-hub/entity/algorithmicbias/higher-poverty-areas-face-pricing-discrimination-35970ea8>
+    rdf:type etd:AlgorithmicBias
+        etd:Bias,
+        etd:Entity ;
+    rdfs:label "Higher Poverty Areas Face Pricing Discrimination"@en ;
+    etd:face "pricing discrimination"^^xsd:string .
+
+<https://alfie-project.eu/etd-hub/entity/assessmentprocedure/audit-process-3b69082d>
+    rdf:type etd:Entity
+        etd:Process,
+        aipo:AssessmentProcedure ;
+    rdfs:label "Audit Process"@en ;
+    etd:startWith "building a not-so robust audit process"^^xsd:string .
+
+<https://alfie-project.eu/etd-hub/entity/assessmentprocedure/flawed-audits-321153c3>
+    rdf:type etd:Entity
+        etd:Process,
+        aipo:AssessmentProcedure ;
+    rdfs:label "Flawed Audits"@en ;
+    etd:overlook "systemic issues like discrimination, data leakage, or poor model explainability"^^xsd:string .
+
+<https://alfie-project.eu/etd-hub/entity/audit/literature-review-0cc32c6b>
+    rdf:type etd:Entity
+        etd:Process,
+        aipo:AssessmentProcedure ;
+    rdfs:label "Literature Review"@en ;
+    etd:perform "some kind of literature review"^^xsd:string .
+
+<https://alfie-project.eu/etd-hub/entity/bias/context-insensitivity-9851c497>
+    rdf:type etd:Bias
+        etd:Entity,
+        airo:BiasRisk ;
+    rdfs:label "Context Insensitivity"@en ;
+    etd:understand "cultural or historical context"^^xsd:string .
+
+<https://alfie-project.eu/etd-hub/entity/bias/digital-divide-fdc9c4af>
+    rdf:type etd:Bias
+        etd:Entity,
+        airo:BiasRisk ;
+    rdfs:label "Digital Divide"@en ;
+    etd:favor "areas with better data coverage"^^xsd:string .
+
+<https://alfie-project.eu/etd-hub/entity/bias/facial-recognition-misuse-a1d05c03>
+    rdf:type etd:Bias
+        etd:Entity,
+        airo:BiasRisk ;
+    rdfs:label "Facial Recognition Misuse"@en ;
+    etd:isAnImpactOf "AI systems"^^xsd:string .
+
+<https://alfie-project.eu/etd-hub/entity/bias/filter-bubbles-04793792>
+    rdf:type etd:Bias
+        etd:Entity,
+        airo:BiasRisk ;
+    rdfs:label "Filter Bubbles"@en ;
+    etd:creation "echo chambers"^^xsd:string ;
+    etd:limit "exposure to diverse products and sellers"^^xsd:string .
+
+<https://alfie-project.eu/etd-hub/entity/bias/historical-discrimination-reinforcement-0d362765>
+    rdf:type etd:Bias
+        etd:Entity,
+        airo:BiasRisk ;
+    rdfs:label "Historical Discrimination Reinforcement"@en ;
+    etd:perpetuationOf "historical transportation discrimination"^^xsd:string .
+
+<https://alfie-project.eu/etd-hub/entity/bias/maternity-leave-83d45891>
+    rdf:type etd:Bias
+        etd:Entity,
+        airo:BiasRisk ;
+    rdfs:label "Maternity Leave"@en ;
+    etd:causes <https://alfie-project.eu/etd-hub/entity/concept/issues-with-handovers-and-temporary-staffing-7957b237> .
+
+<https://alfie-project.eu/etd-hub/entity/bias/proxy-discrimination-e3728c7b>
+    rdf:type etd:Bias
+        etd:Entity,
+        airo:BiasRisk ;
+    rdfs:label "Proxy Discrimination"@en ;
+    etd:useOf "zip codes and other proxies that correlate with protected characteristics"^^xsd:string .
+
+<https://alfie-project.eu/etd-hub/entity/bias/training-data-imbalances-a02be058>
+    rdf:type etd:Bias
+        etd:Entity,
+        airo:BiasRisk ;
+    rdfs:label "Training Data Imbalances"@en ;
+    etd:underrepresentation "certain demographic groups"^^xsd:string .
+
+<https://alfie-project.eu/etd-hub/entity/bias/wikidata-q5282532-9e7386f5>
+    rdf:type etd:Bias
+        etd:Entity,
+        airo:BiasRisk ;
+    rdfs:label "Disparate Impact"@en .
+
+<https://alfie-project.eu/etd-hub/entity/bias/wikidata-q7140431-78f3940e>
+    rdf:type etd:Bias
+        etd:Entity,
+        airo:BiasRisk ;
+    rdfs:label "Participation Inequality"@en ;
+    etd:underrepresentation "marginalized voices"^^xsd:string .
+
+<https://alfie-project.eu/etd-hub/entity/bias/wikidata-q835678-0e6a482e>
+    rdf:type etd:Bias
+        etd:Entity,
+        airo:BiasRisk ;
+    rdfs:label "Price Discrimination"@en ;
+    etd:vary "dynamic pricing"^^xsd:string .
+
+<https://alfie-project.eu/etd-hub/entity/biasrisk/biased-hiring-31c64efc>
+    rdf:type etd:Bias
+        etd:Entity,
+        airo:BiasRisk ;
+    rdfs:label "Biased Hiring"@en ;
+    etd:isAnImpactOf "AI systems"^^xsd:string .
+
+<https://alfie-project.eu/etd-hub/entity/biasrisk/biases-73e7f175>
+    rdf:type etd:Bias
+        etd:Entity,
+        airo:BiasRisk ;
+    rdfs:label "Biases"@en ;
+    etd:affects <https://alfie-project.eu/etd-hub/entity/fairness/fairness-f61dc931> .
+
+<https://alfie-project.eu/etd-hub/entity/biasrisk/historical-data-bias-fcd4ba61>
+    rdf:type etd:Bias
+        etd:Entity,
+        airo:BiasRisk ;
+    rdfs:label "Historical Data Bias"@en ;
+    etd:trainingOn "historical data"^^xsd:string .
+
+<https://alfie-project.eu/etd-hub/entity/biasrisk/language-bias-d71af785>
+    rdf:type etd:Bias
+        etd:Entity,
+        airo:BiasRisk ;
+    rdfs:label "Language Bias"@en ;
+    etd:lowerAccuracyFor "non-English content and code-switching"^^xsd:string .
+
+<https://alfie-project.eu/etd-hub/entity/biasrisk/resource-allocation-bias-8f6e257b>
+    rdf:type etd:Bias
+        etd:Entity,
+        airo:BiasRisk ;
+    rdfs:label "Resource Allocation Bias"@en ;
+    etd:distribution "city services and infrastructure investments"^^xsd:string .
+
+<https://alfie-project.eu/etd-hub/entity/biasrisk/socioeconomic-bias-bf00d474>
+    rdf:type etd:Bias
+        etd:Entity,
+        airo:BiasRisk ;
+    rdfs:label "Socioeconomic Bias"@en ;
+    etd:correlatedWith "writing style differences across economic classes"^^xsd:string .
+
+<https://alfie-project.eu/etd-hub/entity/biasrisk/systematic-bias-fbc06a4c>
+    rdf:type etd:AlgorithmicBias
+        etd:Bias,
+        etd:Entity,
+        airo:BiasRisk ;
+    rdfs:label "Systematic Bias"@en .
+
+<https://alfie-project.eu/etd-hub/entity/biasrisk/wikidata-q65042394-e61e2395>
+    rdf:type etd:Bias
+        etd:Entity,
+        airo:BiasRisk ;
+    rdfs:label "Political Bias"@en ;
+    etd:enforcement "political spectrum"^^xsd:string .
+
+<https://alfie-project.eu/etd-hub/entity/biasrisk/wikidata-q970594-0593864d>
+    rdf:type etd:Bias
+        etd:Entity,
+        airo:BiasRisk ;
+    rdfs:label "Cultural Bias"@en ;
+    etd:leadingTo "misclassification of cultural content"^^xsd:string ;
+    etd:preference "mainstream cultural references and writing conventions"^^xsd:string .
+
+<https://alfie-project.eu/etd-hub/entity/concept/a-good-jumping-off-point-a0592e87>
+    rdf:type skos:Concept
+        etd:Concept,
+        etd:Entity ;
+    rdfs:label "A Good Jumping Off Point"@en ;
+    etd:beginConducting "some research"^^xsd:string .
+
+<https://alfie-project.eu/etd-hub/entity/concept/accepting-failure-never-assigning-individual-blame-in-your-team-accepting-that-you-will-have-to-grow-your-process-knowledge-by-working-iteratively-bb2e178e>
+    rdf:type skos:Concept
+        etd:Concept,
+        etd:Entity ;
+    rdfs:label "Accepting Failure, Never Assigning Individual Blame In Your Team, & Accepting That You Will Have To Grow Your Process & Knowledge By Working Iteratively"@en ;
+    etd:causes <https://alfie-project.eu/etd-hub/entity/populationgroup/ai-team-85270cc7> ;
+    etd:willLeadTo "a better process & a happier AI team"^^xsd:string .
+
+<https://alfie-project.eu/etd-hub/entity/concept/agile-a2a82862>
+    rdf:type skos:Concept
+        etd:Concept,
+        etd:Entity ;
+    rdfs:label "Agile"@en ;
+    etd:adopting "SCRUM"^^xsd:string .
+
+<https://alfie-project.eu/etd-hub/entity/concept/ai-18c45038>
+    rdf:type skos:Concept
+        etd:Concept,
+        etd:Entity ;
+    rdfs:label "AI"@en ;
+    etd:trainedOn "validated indicators of performance"^^xsd:string .
+
+<https://alfie-project.eu/etd-hub/entity/concept/ai-system-bef75fdc>
+    rdf:type skos:Concept
+        etd:Concept,
+        etd:Entity ;
+    rdfs:label "AI system"@en ;
+    etd:affects <https://alfie-project.eu/etd-hub/entity/conceptobject/human-autonomy-33e683a7> .
+
+<https://alfie-project.eu/etd-hub/entity/concept/algorithms-ba09cbc6>
+    rdf:type skos:Concept
+        etd:Concept,
+        etd:Entity ;
+    rdfs:label "Algorithms"@en ;
+    etd:amplify "existing biases"^^xsd:string ;
+    etd:perpetuate "biased historical data"^^xsd:string
+        "existing biases"^^xsd:string ;
+    etd:risk "codifying and perpetuating these inequities"^^xsd:string .
+
+<https://alfie-project.eu/etd-hub/entity/concept/artefacts-sign-offs-56a14bdc>
+    rdf:type skos:Concept
+        etd:Concept,
+        etd:Entity ;
+    rdfs:label "Artefacts & Sign-Offs"@en ;
+    etd:discourage "misuse"^^xsd:string .
+
+<https://alfie-project.eu/etd-hub/entity/concept/background-check-110be9c6>
+    rdf:type skos:Concept
+        etd:Concept,
+        etd:Entity ;
+    rdfs:label "Background Check"@en .
+
+<https://alfie-project.eu/etd-hub/entity/concept/biased-algorithms-7d9cd25d>
+    rdf:type skos:Concept
+        etd:Concept,
+        etd:Entity ;
+    rdfs:label "Biased Algorithms"@en ;
+    etd:reinforce "existing educational disparities"^^xsd:string .
+
+<https://alfie-project.eu/etd-hub/entity/concept/biased-diagnostic-tools-dc520e46>
+    rdf:type skos:Concept
+        etd:Concept,
+        etd:Entity ;
+    rdfs:label "Biased Diagnostic Tools"@en ;
+    etd:causes <https://alfie-project.eu/etd-hub/entity/impact/wikidata-q11631567-cc08f68f> ;
+    etd:leadTo "misdiagnosis"^^xsd:string .
+
+<https://alfie-project.eu/etd-hub/entity/concept/building-a-robust-audit-process-1da56420>
+    rdf:type skos:Concept
+        etd:Concept,
+        etd:Entity ;
+    rdfs:label "Building A Robust Audit Process"@en ;
+    etd:cannotBeDone "by siloed individuals in silence"^^xsd:string .
+
+<https://alfie-project.eu/etd-hub/entity/concept/cvs-resumes-99029439>
+    rdf:type skos:Concept
+        etd:Concept,
+        etd:Entity ;
+    rdfs:label "Cvs/Resumes"@en ;
+    etd:contain "sensitive personal data"^^xsd:string .
+
+<https://alfie-project.eu/etd-hub/entity/concept/cycling-4c098302>
+    rdf:type skos:Concept
+        etd:Concept,
+        etd:Entity ;
+    rdfs:label "Cycling"@en ;
+    etd:retaining "comprehensive documentation"^^xsd:string .
+
+<https://alfie-project.eu/etd-hub/entity/concept/dbs-a848c69d>
+    rdf:type skos:Concept
+        etd:Concept,
+        etd:Entity ;
+    rdfs:label "DBS"@en ;
+    etd:isARequirementFor "the job"^^xsd:string .
+
+<https://alfie-project.eu/etd-hub/entity/concept/degree-in-horse-psychotherapy-0cd594de>
+    rdf:type skos:Concept
+        etd:Concept,
+        etd:Entity ;
+    rdfs:label "Degree In Horse Psychotherapy"@en ;
+    etd:isNotRelevantTo "a coding job"^^xsd:string .
+
+<https://alfie-project.eu/etd-hub/entity/concept/direct-data-f9ac7556>
+    rdf:type skos:Concept
+        etd:Concept,
+        etd:Entity ;
+    rdfs:label "Direct Data"@en ;
+    etd:referencesSource "https://www.propublica.org/datastore/dataset/compas-recidivism-risk-score-data-and-analysis"^^xsd:string .
+
+<https://alfie-project.eu/etd-hub/entity/concept/documentation-requirements-1712757b>
+    rdf:type skos:Concept
+        etd:Concept,
+        etd:Entity ;
+    rdfs:label "Documentation Requirements"@en ;
+    etd:encourage "people to think about things"^^xsd:string ;
+    etd:makeItEasierToDecideOn "testing methods from your framework to apply"^^xsd:string .
+
+<https://alfie-project.eu/etd-hub/entity/concept/ethical-challenges-3b77e48e>
+    rdf:type skos:Concept
+        etd:Concept,
+        etd:Entity ;
+    rdfs:label "Ethical Challenges"@en ;
+    etd:affects <https://alfie-project.eu/etd-hub/entity/demographicgroup/higher-premiums-for-equivalent-risk-profiles-in-minority-communities-e11b21b7> ;
+    etd:particularlyAffects <https://alfie-project.eu/etd-hub/entity/populationgroup/african-american-women-d9557f5e> .
+
+<https://alfie-project.eu/etd-hub/entity/concept/first-port-of-call-3298da2b>
+    rdf:type skos:Concept
+        etd:Concept,
+        etd:Entity ;
+    rdfs:label "First Port Of Call"@en ;
+    etd:isToSelect "an ethical/policy basis"^^xsd:string .
+
+<https://alfie-project.eu/etd-hub/entity/concept/gold-standard-538a7011>
+    rdf:type skos:Concept
+        etd:Concept,
+        etd:Entity ;
+    rdfs:label "Gold Standard"@en ;
+    etd:isAConsiderationWhenYouDonTHave "death"^^xsd:string .
+
+<https://alfie-project.eu/etd-hub/entity/concept/hard-to-measure-model-performance-51298c09>
+    rdf:type skos:Concept
+        etd:Concept,
+        etd:Entity ;
+    rdfs:label "Hard To Measure Model Performance"@en ;
+    etd:dependOn "certain data"^^xsd:string .
+
+<https://alfie-project.eu/etd-hub/entity/concept/helpful-31cc29fc>
+    rdf:type skos:Concept
+        etd:Concept,
+        etd:Entity ;
+    rdfs:label "Helpful"@en ;
+    etd:isCausing "harm"^^xsd:string .
+
+<https://alfie-project.eu/etd-hub/entity/concept/higher-poverty-areas-710e80ba>
+    rdf:type skos:Concept
+        etd:Concept,
+        etd:Entity ;
+    rdfs:label "Higher Poverty Areas"@en ;
+    etd:face "pricing discrimination"^^xsd:string .
+
+<https://alfie-project.eu/etd-hub/entity/concept/historical-bias-perpetuation-da8c756e>
+    rdf:type skos:Concept
+        etd:Concept,
+        etd:Entity ;
+    rdfs:label "Historical Bias Perpetuation"@en ;
+    etd:reinforcement "existing disparities in the criminal justice system"^^xsd:string .
+
+<https://alfie-project.eu/etd-hub/entity/concept/historical-transportation-discrimination-f39fee25>
+    rdf:type skos:Concept
+        etd:Concept,
+        etd:Entity ;
+    rdfs:label "Historical Transportation Discrimination"@en ;
+    etd:perpetuation "historical discrimination"^^xsd:string .
+
+<https://alfie-project.eu/etd-hub/entity/concept/improper-handling-1324b3b2>
+    rdf:type skos:Concept
+        etd:Concept,
+        etd:Entity ;
+    rdfs:label "Improper Handling"@en ;
+    etd:leadTo "data breaches"^^xsd:string
+        "data breaches or misuse"^^xsd:string,
+        "misuse"^^xsd:string .
+
+<https://alfie-project.eu/etd-hub/entity/concept/issues-with-handovers-and-temporary-staffing-7957b237>
+    rdf:type skos:Concept
+        etd:Concept,
+        etd:Entity ;
+    rdfs:label "Issues With Handovers And Temporary Staffing"@en .
+
+<https://alfie-project.eu/etd-hub/entity/concept/job-match-hiring-decisions-bd5db292>
+    rdf:type skos:Concept
+        etd:Concept,
+        etd:Entity ;
+    rdfs:label "Job Match/Hiring Decisions"@en ;
+    etd:favored "certain age groups"^^xsd:string
+        "certain ethnicities"^^xsd:string,
+        "certain genders"^^xsd:string .
+
+<https://alfie-project.eu/etd-hub/entity/concept/millions-of-healthcare-decisions-10f9c30b>
+    rdf:type skos:Concept
+        etd:Concept,
+        etd:Entity ;
+    rdfs:label "Millions Of Healthcare Decisions"@en .
+
+<https://alfie-project.eu/etd-hub/entity/concept/neighborhoods-with-larger-non-white-populations-eea37de2>
+    rdf:type skos:Concept
+        etd:Concept,
+        etd:Entity ;
+    rdfs:label "Neighborhoods With Larger Non-White Populations"@en ;
+    etd:charged "significantly higher fares"^^xsd:string .
+
+<https://alfie-project.eu/etd-hub/entity/concept/one-characteristic-33b953b1>
+    rdf:type skos:Concept
+        etd:Concept,
+        etd:Entity ;
+    rdfs:label "One Characteristic"@en ;
+    etd:consider "whether their education was relevant to the role"^^xsd:string ;
+    etd:notConsider "gender"^^xsd:string .
+
+<https://alfie-project.eu/etd-hub/entity/concept/organisations-teams-71ada05e>
+    rdf:type skos:Concept
+        etd:Concept,
+        etd:Entity ;
+    rdfs:label "Organisations/Teams"@en ;
+    etd:share "approach"^^xsd:string .
+
+<https://alfie-project.eu/etd-hub/entity/concept/platform-governance-7a940545>
+    rdf:type skos:Concept
+        etd:Concept,
+        etd:Entity ;
+    rdfs:label "Platform Governance"@en ;
+    etd:ledTo "policy changes"^^xsd:string .
+
+<https://alfie-project.eu/etd-hub/entity/concept/policy-changes-37393554>
+    rdf:type skos:Concept
+        etd:Concept,
+        etd:Entity ;
+    rdfs:label "Policy Changes"@en ;
+    etd:ledTo "major tech companies"^^xsd:string .
+
+<https://alfie-project.eu/etd-hub/entity/concept/predictions-984b10b7>
+    rdf:type skos:Concept
+        etd:Concept,
+        etd:Entity ;
+    rdfs:label "Predictions"@en ;
+    etd:affects <https://alfie-project.eu/etd-hub/entity/concept/whether-or-not-you-were-hired-3bd9887f> ;
+    etd:make "you quit"^^xsd:string .
+
+<https://alfie-project.eu/etd-hub/entity/concept/proprietary-black-box-algorithms-89492558>
+    rdf:type skos:Concept
+        etd:Concept,
+        etd:Entity ;
+    rdfs:label "Proprietary, Black-Box Algorithms"@en ;
+    etd:raise "serious concerns about due process"^^xsd:string .
+
+<https://alfie-project.eu/etd-hub/entity/concept/proxies-6d911248>
+    rdf:type skos:Concept
+        etd:Concept,
+        etd:Entity ;
+    rdfs:label "Proxies"@en ;
+    etd:encode "bias"^^xsd:string .
+
+<https://alfie-project.eu/etd-hub/entity/concept/seemingly-neutral-metrics-bbc4f67e>
+    rdf:type skos:Concept
+        etd:Concept,
+        etd:Entity ;
+    rdfs:label "Seemingly Neutral Metrics"@en ;
+    etd:canIncorporate "systemic bias"^^xsd:string ;
+    etd:incorporate "systemic bias"^^xsd:string .
+
+<https://alfie-project.eu/etd-hub/entity/concept/smart-city-algorithms-b4f7eafc>
+    rdf:type skos:Concept
+        etd:Concept,
+        etd:Entity ;
+    rdfs:label "Smart City Algorithms"@en ;
+    etd:show "systematic bias"^^xsd:string .
+
+<https://alfie-project.eu/etd-hub/entity/concept/the-issue-35afe400>
+    rdf:type skos:Concept
+        etd:Concept,
+        etd:Entity ;
+    rdfs:label "The Issue"@en ;
+    etd:isDifficult "how you quantify good/bad suitability"^^xsd:string .
+
+<https://alfie-project.eu/etd-hub/entity/concept/training-on-real-world-data-f08a2b0b>
+    rdf:type skos:Concept
+        etd:Concept,
+        etd:Entity ;
+    rdfs:label "Training On “Real-World” Data"@en ;
+    etd:isNoGuaranteeOf "fairness"^^xsd:string .
+
+<https://alfie-project.eu/etd-hub/entity/concept/whether-or-not-you-were-hired-3bd9887f>
+    rdf:type skos:Concept
+        etd:Concept,
+        etd:Entity ;
+    rdfs:label "Whether Or Not You Were Hired"@en .
+
+<https://alfie-project.eu/etd-hub/entity/concept/wikidata-q5001907-05403781>
+    rdf:type skos:Concept
+        etd:Concept,
+        etd:Entity ;
+    rdfs:label "Business Opportunities"@en .
+
+<https://alfie-project.eu/etd-hub/entity/conceptobject/human-autonomy-33e683a7>
+    rdf:type etd:Entity
+        etd:EthicalPrinciple ;
+    rdfs:label "Human Autonomy"@en .
+
+<https://alfie-project.eu/etd-hub/entity/criminaljustice/criminal-justice-ff5cb81d>
+    rdf:type etd:CriminalJustice
+        etd:Entity,
+        vair:JusticeDomain ;
+    rdfs:label "Criminal Justice"@en .
+
+<https://alfie-project.eu/etd-hub/entity/data/essays-67c1d4df>
+    rdf:type dcat:Dataset
+        etd:Entity ;
+    rdfs:label "Essays"@en ;
+    etd:content "12800"^^xsd:integer .
+
+<https://alfie-project.eu/etd-hub/entity/dataset/adult-census-income-dataset-0bbac836>
+    rdf:type dcat:Dataset
+        etd:Dataset,
+        etd:Entity ;
+    rdfs:label "Adult/Census Income Dataset"@en ;
+    etd:hasSubjectDescription "48,842 records of census data for predicting income >$50K/year with 13 features"^^xsd:string ;
+    etd:hostedBy <https://alfie-project.eu/etd-hub/entity/resource/uci-machine-learning-repository-41fb7332> ;
+    etd:isAvailableOn "fairness toolkits"^^xsd:string ;
+    etd:isUsedFor "studying bias in income prediction across demographic groups"^^xsd:string .
+
+<https://alfie-project.eu/etd-hub/entity/dataset/asap-2-0-dataset-9b012019>
+    rdf:type dcat:Dataset
+        etd:Dataset,
+        etd:Entity ;
+    rdfs:label "ASAP 2.0 Dataset"@en ;
+    etd:hasSubjectDescription "24,000 argumentative essays"^^xsd:string .
+
+<https://alfie-project.eu/etd-hub/entity/dataset/boston-street-bump-dataset-b91f54cd>
+    rdf:type dcat:Dataset
+        etd:Dataset,
+        etd:Entity ;
+    rdfs:label "Boston Street Bump Dataset"@en ;
+    etd:show "geographic bias"^^xsd:string ;
+    etd:showing "geographic bias"^^xsd:string .
+
+<https://alfie-project.eu/etd-hub/entity/dataset/chexpert-dataset-fabe66fc>
+    rdf:type dcat:Dataset
+        etd:Dataset,
+        etd:Entity ;
+    rdfs:label "CheXpert Dataset"@en ;
+    etd:hasurl "https://stanfordmlgroup.github.io/competitions/chexpert/"^^xsd:string .
+
+<https://alfie-project.eu/etd-hub/entity/dataset/communities-and-crime-dataset-d7913e6c>
+    rdf:type dcat:Dataset
+        etd:Dataset,
+        etd:Entity ;
+    rdfs:label "Communities And Crime Dataset"@en ;
+    etd:hostedBy <https://alfie-project.eu/etd-hub/entity/resource/uci-repository-with-socioeconomic-and-crime-data-40c852f6> .
+
+<https://alfie-project.eu/etd-hub/entity/dataset/compas-recidivism-dataset-4597df07>
+    rdf:type dcat:Dataset
+        etd:Dataset,
+        etd:Entity ;
+    rdfs:label "COMPAS Recidivism Dataset"@en ;
+    etd:hasSubjectDescription "10,000+ individuals from Broward County, Florida (2013-2014) including criminal history, demographics, COMPAS scores, and two-year recidivism outcomes"^^xsd:string ;
+    etd:hostedBy <https://alfie-project.eu/etd-hub/entity/resource/propublica-github-repository-c012afa9> .
+
+<https://alfie-project.eu/etd-hub/entity/dataset/default-of-credit-card-clients-6a390a3e>
+    rdf:type dcat:Dataset
+        etd:Dataset,
+        etd:Entity ;
+    rdfs:label "Default Of Credit Card Clients"@en ;
+    etd:referencesSource "https://archive.ics.uci.edu/dataset/350/default+of+credit+card+clients"^^xsd:string .
+
+<https://alfie-project.eu/etd-hub/entity/dataset/hateval-dataset-de242dc1>
+    rdf:type dcat:Dataset
+        etd:Dataset,
+        etd:Entity ;
+    rdfs:label "HatEval Dataset"@en ;
+    etd:detection "hate speech against immigrants and women"^^xsd:string .
+
+<https://alfie-project.eu/etd-hub/entity/dataset/home-mortgage-disclosure-act-hmda-dataset-56df2d02>
+    rdf:type dcat:Dataset
+        etd:Dataset,
+        etd:Entity ;
+    rdfs:label "Home Mortgage Disclosure Act (HMDA) Dataset"@en ;
+    etd:affects <https://alfie-project.eu/etd-hub/entity/populationgroup/african-american-women-d9557f5e> ;
+    etd:pay "7.9 and 3.6 basis points more respectively"^^xsd:string .
+
+<https://alfie-project.eu/etd-hub/entity/dataset/kaggle-competition-data-b4168639>
+    rdf:type dcat:Dataset
+        etd:Dataset,
+        etd:Entity ;
+    rdfs:label "Kaggle Competition Data"@en ;
+    etd:enhanced "24,000 argumentative essays with explicit bias considerations"^^xsd:string ;
+    etd:hasSubjectDescription "12,800 essays from grades 7-10 across 8 different prompts"^^xsd:string .
+
+<https://alfie-project.eu/etd-hub/entity/dataset/nih-chest-x-ray-dataset-fc0149f2>
+    rdf:type dcat:Dataset
+        etd:Dataset,
+        etd:Entity ;
+    rdfs:label "NIH Chest X-Ray Dataset"@en ;
+    etd:hasSubjectDescription "112120"^^xsd:integer
+        "30805"^^xsd:integer ;
+    etd:includes "30805"^^xsd:integer ;
+    etd:provide "one of the largest publicly available chest X-ray datasets"^^xsd:string .
+
+<https://alfie-project.eu/etd-hub/entity/dataset/pilot-parliaments-benchmark-ppb-4ba2aff1>
+    rdf:type dcat:Dataset
+        etd:Dataset,
+        etd:Entity ;
+    rdfs:label "Pilot Parliaments Benchmark (PPB)"@en ;
+    etd:feature "44.39% women, 47% dark-skin representation"^^xsd:string ;
+    etd:hasSubjectDescription "1,270 unique individuals from 6 countries"^^xsd:string ;
+    etd:label "Fitzpatrick Skin Type classification and gender annotations"^^xsd:string .
+
+<https://alfie-project.eu/etd-hub/entity/dataset/public-datasets-21eedf4c>
+    rdf:type dcat:Dataset
+        etd:Dataset,
+        etd:Entity ;
+    rdfs:label "Public Datasets"@en ;
+    etd:hasurl "https://www.kaggle.com/c/asap-aes/data"^^xsd:string ;
+    etd:isPubliclyAvailable "for research"^^xsd:string ;
+    etd:provideAccessTo "datasets@ajlunited.org"^^xsd:string ;
+    etd:referencesSource "https://archive.ics.uci.edu/dataset/183/communities+and+crime"^^xsd:string
+        "https://www.kaggle.com/c/rsna-pneumonia-detection-challenge"^^xsd:string .
+
+<https://alfie-project.eu/etd-hub/entity/dataset/training-datasets-d47faeda>
+    rdf:type dcat:Dataset
+        etd:Dataset,
+        etd:Entity ;
+    rdfs:label "Training Datasets"@en ;
+    etd:contained "83.5%"^^xsd:string ;
+    etd:hasSubjectDescription "83.5%"^^xsd:string .
+
+<https://alfie-project.eu/etd-hub/entity/dataset/wikidata-q122889074-8a9c3ba5>
+    rdf:type dcat:Dataset
+        etd:Dataset,
+        etd:Entity ;
+    rdfs:label "DSA Transparency Database"@en ;
+    etd:auditing "Self-reported Moderation Actions by Social Media"^^xsd:string .
+
+<https://alfie-project.eu/etd-hub/entity/dataset/wikidata-q124834755-d4f0f206>
+    rdf:type dcat:Dataset
+        etd:Dataset,
+        etd:Entity ;
+    rdfs:label "Census Data"@en ;
+    etd:predicting "income >$50K/year"^^xsd:string .
+
+<https://alfie-project.eu/etd-hub/entity/dataset/yelp-open-dataset-9d959a83>
+    rdf:type dcat:Dataset
+        etd:Dataset,
+        etd:Entity ;
+    rdfs:label "Yelp Open Dataset"@en ;
+    etd:hasurl "https://www.yelp.com/dataset"^^xsd:string .
+
+<https://alfie-project.eu/etd-hub/entity/date/wikidata-q57350541-8aeca49a>
+    rdf:type etd:Entity ;
+    rdfs:label "September 19, 2019"@en .
+
+<https://alfie-project.eu/etd-hub/entity/demographicgroup/black-and-latino-borrowers-fb00aa98>
+    rdf:type etd:DemographicGroup
+        etd:Entity ;
+    rdfs:label "Black And Latino Borrowers"@en ;
+    etd:paying "higher interest rates"^^xsd:string .
+
+<https://alfie-project.eu/etd-hub/entity/demographicgroup/black-defendants-f7cbf8f5>
+    rdf:type etd:DemographicGroup
+        etd:Entity ;
+    rdfs:label "Black Defendants"@en .
+
+<https://alfie-project.eu/etd-hub/entity/demographicgroup/black-women-28a2c47f>
+    rdf:type etd:DemographicGroup
+        etd:Entity ;
+    rdfs:label "Black Women"@en .
+
+<https://alfie-project.eu/etd-hub/entity/demographicgroup/dark-skinned-women-03d220f3>
+    rdf:type etd:DemographicGroup
+        etd:Entity ;
+    rdfs:label "Dark-Skinned Women"@en ;
+    etd:errorRate "34.7%"^^xsd:string ;
+    etd:varied "light-skinned men"^^xsd:string .
+
+<https://alfie-project.eu/etd-hub/entity/demographicgroup/higher-premiums-for-equivalent-risk-profiles-in-minority-communities-e11b21b7>
+    rdf:type etd:DemographicGroup
+        etd:Entity ;
+    rdfs:label ": Higher Premiums For Equivalent Risk Profiles In Minority Communities"@en .
+
+<https://alfie-project.eu/etd-hub/entity/demographicgroup/light-skinned-men-52ca16f4>
+    rdf:type etd:DemographicGroup
+        etd:Entity ;
+    rdfs:label "Light-Skinned Men"@en ;
+    etd:errorRate "0.8%"^^xsd:string .
+
+<https://alfie-project.eu/etd-hub/entity/demographicgroup/low-income-populations-0f2d8caf>
+    rdf:type etd:DemographicGroup
+        etd:Entity ;
+    rdfs:label "Low-Income Populations"@en .
+
+<https://alfie-project.eu/etd-hub/entity/demographicgroup/marginalized-communities-4bdcc85a>
+    rdf:type etd:DemographicGroup
+        etd:Entity ;
+    rdfs:label "Marginalized Communities"@en .
+
+<https://alfie-project.eu/etd-hub/entity/demographicgroup/white-students-3be89ccb>
+    rdf:type etd:DemographicGroup
+        etd:Entity ;
+    rdfs:label "White Students"@en ;
+    etd:predictedAcademicFailure "12%"^^xsd:string .
+
+<https://alfie-project.eu/etd-hub/entity/demographicgroup/women-879f92c8>
+    rdf:type etd:DemographicGroup
+        etd:Entity,
+        etd:PopulationGroup ;
+    rdfs:label "Women"@en .
+
+<https://alfie-project.eu/etd-hub/entity/entity/a-conviction-a40326a0>
+    rdf:type etd:Entity ;
+    rdfs:label "A Conviction"@en ;
+    etd:causes <https://alfie-project.eu/etd-hub/entity/concept/background-check-110be9c6>
+        <https://alfie-project.eu/etd-hub/entity/concept/dbs-a848c69d> .
+
+<https://alfie-project.eu/etd-hub/entity/entity/an-interesting-conference-contribution-9a9965d3>
+    rdf:type etd:Entity ;
+    rdfs:label "An Interesting Conference Contribution"@en ;
+    etd:addressed "the performativity of predictions"^^xsd:string .
+
+<https://alfie-project.eu/etd-hub/entity/entity/somebody-2eb50c89>
+    rdf:type etd:Entity ;
+    rdfs:label "Somebody"@en ;
+    etd:applying "the model"^^xsd:string .
+
+<https://alfie-project.eu/etd-hub/entity/entity/trujillo-a-fagni-t-cresci-s-86d7e1a5>
+    rdf:type etd:Entity ;
+    rdfs:label "Trujillo, A., Fagni, T., & Cresci, S."@en ;
+    etd:published "2025"^^xsd:string .
+
+<https://alfie-project.eu/etd-hub/entity/entity/wikidata-q21708200-a4eebc6c>
+    rdf:type etd:Entity ;
+    rdfs:label "OpenAI"@en ;
+    etd:areBeingForcedToRetain "ALL chatlogs"^^xsd:string ;
+    etd:retain "ALL chatlogs"^^xsd:string .
+
+<https://alfie-project.eu/etd-hub/entity/entity/wikidata-q3053337-2ecd753c>
+    rdf:type skos:Concept
+        etd:Entity ;
+    rdfs:label "An Employer"@en ;
+    etd:flag "somebody who definitely *wont* work out at the job"^^xsd:string .
+
+<https://alfie-project.eu/etd-hub/entity/fairness/fairness-algorithms-d9755ca2>
+    rdf:type fmo:Fairness
+        etd:AISystem,
+        etd:Entity ;
+    rdfs:label "Fairness Algorithms"@en ;
+    etd:mitigates <https://alfie-project.eu/etd-hub/entity/bias/wikidata-q5282532-9e7386f5> .
+
+<https://alfie-project.eu/etd-hub/entity/fairness/fairness-f61dc931>
+    rdf:type fmo:Fairness
+        etd:Entity,
+        etd:EthicalPrinciple,
+        etd:Fairness ;
+    rdfs:label "Fairness"@en .
+
+<https://alfie-project.eu/etd-hub/entity/fairness/mlr3fairness-package-82718243>
+    rdf:type fmo:Fairness
+        etd:Entity,
+        etd:EthicalPrinciple ;
+    rdfs:label "Mlr3fairness Package"@en ;
+    etd:available "https://mlr3fairness.mlr-org.com/reference/compas.html"^^xsd:string .
+
+<https://alfie-project.eu/etd-hub/entity/governance/living-artefacts-e749d2cc>
+    rdf:type etd:Entity
+        etd:Governance,
+        aipo:AIGovernance ;
+    rdfs:label "Living Artefacts"@en ;
+    etd:enable "to grow alongside changing science, policy, & your learning from auditing mistakes"^^xsd:string .
+
+<https://alfie-project.eu/etd-hub/entity/governance/regulatory-compliance-65438157>
+    rdf:type etd:Entity
+        etd:Governance,
+        aipo:AIGovernance ;
+    rdfs:label "Regulatory Compliance"@en ;
+    etd:violation "fair lending and anti-discrimination laws"^^xsd:string .
+
+<https://alfie-project.eu/etd-hub/entity/impact/scale-of-impact-188a39e8>
+    rdf:type etd:Entity
+        etd:Impact ;
+    rdfs:label "Scale Of Impact"@en ;
+    etd:affects <https://alfie-project.eu/etd-hub/entity/concept/millions-of-healthcare-decisions-10f9c30b> .
+
+<https://alfie-project.eu/etd-hub/entity/impact/wikidata-q11606433-429b2507>
+    rdf:type etd:Entity
+        etd:Impact ;
+    rdfs:label "Economic Impact"@en ;
+    etd:causes <https://alfie-project.eu/etd-hub/entity/metric/765m-annually-b97c31d3> .
+
+<https://alfie-project.eu/etd-hub/entity/impact/wikidata-q11631567-cc08f68f>
+    rdf:type etd:Entity
+        etd:Impact ;
+    rdfs:label "Misdiagnosis"@en .
+
+<https://alfie-project.eu/etd-hub/entity/individual/agavornik-dbb92187>
+    rdf:type etd:Entity ;
+    rdfs:label "Agavornik"@en ;
+    etd:isRelevantTo "my own research in clinical risk prediction"^^xsd:string .
+
+<https://alfie-project.eu/etd-hub/entity/metric/765m-annually-b97c31d3>
+    rdf:type etd:Entity ;
+    rdfs:label "$765M+ Annually"@en .
+
+<https://alfie-project.eu/etd-hub/entity/metric/88-90-of-all-u-s-mortgage-loans-since-1975-c9bb32df>
+    rdf:type etd:Entity ;
+    rdfs:label "88-90% Of All U.S. Mortgage Loans Since 1975"@en ;
+    etd:includes "enhanced data since 2017"^^xsd:string .
+
+<https://alfie-project.eu/etd-hub/entity/metric/staff-retention-67275643>
+    rdf:type etd:Entity
+        airo:Metric ;
+    rdfs:label "Staff Retention"@en ;
+    etd:causes <https://alfie-project.eu/etd-hub/entity/concept/issues-with-handovers-and-temporary-staffing-7957b237> .
+
+<https://alfie-project.eu/etd-hub/entity/model/adversarial-model-c6173e88>
+    rdf:type etd:Entity
+        etd:Model ;
+    rdfs:label "Adversarial Model"@en ;
+    etd:infer "protected characteristics"^^xsd:string .
+
+<https://alfie-project.eu/etd-hub/entity/model/commercial-health-risk-algorithms-c1e984dd>
+    rdf:type etd:Entity
+        etd:Model ;
+    rdfs:label "Commercial Health Risk Algorithms"@en ;
+    etd:affects <https://alfie-project.eu/etd-hub/entity/populationgroup/americans-6b566378> ;
+    etd:usedToIdentify "patients needing additional care programs"^^xsd:string .
+
+<https://alfie-project.eu/etd-hub/entity/model/diagnostic-algorithms-b808b55d>
+    rdf:type etd:Entity
+        etd:Model ;
+    rdfs:label "Diagnostic Algorithms"@en ;
+    etd:show "varying performance across racial and gender groups"^^xsd:string .
+
+<https://alfie-project.eu/etd-hub/entity/model/dynamic-pricing-algorithms-a318ac5b>
+    rdf:type etd:Entity
+        etd:Model ;
+    rdfs:label "Dynamic Pricing Algorithms"@en ;
+    etd:charged <https://alfie-project.eu/etd-hub/entity/concept/neighborhoods-with-larger-non-white-populations-eea37de2> ;
+    etd:discriminateAgainst "low-income populations"^^xsd:string
+        "neighborhoods with non-white and low-income populations"^^xsd:string ;
+    etd:particularlyAffects <https://alfie-project.eu/etd-hub/entity/demographicgroup/low-income-populations-0f2d8caf>
+        <https://alfie-project.eu/etd-hub/entity/populationgroup/neighborhoods-with-non-white-and-low-income-populations-cb66a657> .
+
+<https://alfie-project.eu/etd-hub/entity/model/medical-image-classifiers-80540341>
+    rdf:type etd:Entity
+        etd:Model ;
+    rdfs:label "Medical Image Classifiers"@en ;
+    etd:documented "bias"^^xsd:string .
+
+<https://alfie-project.eu/etd-hub/entity/model/model-ff8c02b5>
+    rdf:type etd:Entity
+        etd:Model ;
+    rdfs:label "Model"@en ;
+    etd:marking "the user as unsuitable"^^xsd:string ;
+    etd:searchingFor "a practically disqualifying criteria"^^xsd:string .
+
+<https://alfie-project.eu/etd-hub/entity/model/online-marketplace-recommendation-algorithms-2bd4448e>
+    rdf:type etd:Entity
+        etd:Model ;
+    rdfs:label "Online Marketplace Recommendation Algorithms"@en ;
+    etd:affects <https://alfie-project.eu/etd-hub/entity/concept/wikidata-q5001907-05403781> ;
+    etd:reinforce "gender and racial stereotypes"^^xsd:string ;
+    etd:show "bias in product suggestions"^^xsd:string
+        "perpetuating stereotypes"^^xsd:string .
+
+<https://alfie-project.eu/etd-hub/entity/model/wikidata-q117349473-ba9c35ce>
+    rdf:type etd:Entity
+        etd:Model ;
+    rdfs:label "AI Models"@en ;
+    etd:affecting "diagnostic accuracy across demographic groups"^^xsd:string ;
+    etd:affects <https://alfie-project.eu/etd-hub/entity/outcome/diagnostic-accuracy-across-demographic-groups-f7f538d6> ;
+    etd:compare "dataset of current or past employees"^^xsd:string ;
+    etd:predict "job performance"^^xsd:string
+        "productivity"^^xsd:string,
+        "some students"^^xsd:string .
+
+<https://alfie-project.eu/etd-hub/entity/model/wikidata-q125919502-c9a1b270>
+    rdf:type etd:Entity
+        etd:Model ;
+    rdfs:label "GPT-4o"@en ;
+    etd:predicted "academic failure for Black students"^^xsd:string .
+
+<https://alfie-project.eu/etd-hub/entity/organisation/wikidata-q104880166-48f1b4e1>
+    rdf:type etd:Bias
+        etd:Entity ;
+    rdfs:label "Algorithmic Justice League"@en ;
+    etd:provide "Pilot Parliaments Benchmark (PPB)"^^xsd:string .
+
+<https://alfie-project.eu/etd-hub/entity/organization/equivant-f94281ad>
+    rdf:type org:Organization
+        etd:Entity,
+        etd:Organization ;
+    rdfs:label "Equivant"@en ;
+    etd:argued "the system maintained overall accuracy parity"^^xsd:string .
+
+<https://alfie-project.eu/etd-hub/entity/outcome/diagnostic-accuracy-across-demographic-groups-f7f538d6>
+    rdf:type etd:Entity
+        etd:Outcome ;
+    rdfs:label "Diagnostic Accuracy Across Demographic Groups"@en .
+
+<https://alfie-project.eu/etd-hub/entity/person/kate-crawford-0540446f>
+    rdf:type foaf:Person
+        etd:Entity,
+        etd:Person ;
+    rdfs:label "Kate Crawford"@en ;
+    etd:coAuthored "Excavating AI: The Politics of Training Sets for Machine Learning"^^xsd:string .
+
+<https://alfie-project.eu/etd-hub/entity/person/wikidata-q31359093-cf561c39>
+    rdf:type foaf:Person
+        etd:Entity,
+        etd:Person ;
+    rdfs:label "Joy Buolamwini"@en ;
+    etd:exposed "severe intersectional bias"^^xsd:string .
+
+<https://alfie-project.eu/etd-hub/entity/person/wikidata-q7839361-170324ac>
+    rdf:type foaf:Person
+        etd:Entity,
+        etd:Person ;
+    rdfs:label "Trevor Paglen"@en ;
+    etd:coAuthored "Excavating AI: The Politics of Training Sets for Machine Learning"^^xsd:string .
+
+<https://alfie-project.eu/etd-hub/entity/populationgroup/6-countries-74f48331>
+    rdf:type etd:Entity
+        etd:PopulationGroup ;
+    rdfs:label "6 Countries"@en ;
+    etd:includes "3 African"^^xsd:string
+        "3 European"^^xsd:string .
+
+<https://alfie-project.eu/etd-hub/entity/populationgroup/african-american-women-d9557f5e>
+    rdf:type etd:DemographicGroup
+        etd:Entity,
+        etd:PopulationGroup ;
+    rdfs:label "African American Women"@en .
+
+<https://alfie-project.eu/etd-hub/entity/populationgroup/ai-team-85270cc7>
+    rdf:type etd:Entity
+        etd:PopulationGroup ;
+    rdfs:label "AI Team"@en .
+
+<https://alfie-project.eu/etd-hub/entity/populationgroup/americans-6b566378>
+    rdf:type etd:Entity
+        etd:PopulationGroup ;
+    rdfs:label "Americans"@en .
+
+<https://alfie-project.eu/etd-hub/entity/populationgroup/black-borrowers-931ec6d2>
+    rdf:type etd:Entity
+        etd:PopulationGroup ;
+    rdfs:label "Black Borrowers"@en ;
+    etd:pay etd:concept_7_9_basis_points_more_a7fd09f331 .
+
+<https://alfie-project.eu/etd-hub/entity/populationgroup/black-individuals-0e57cf7c>
+    rdf:type etd:Entity
+        etd:PopulationGroup ;
+    rdfs:label "Black Individuals"@en .
+
+<https://alfie-project.eu/etd-hub/entity/populationgroup/black-patients-b13dc488>
+    rdf:type etd:DemographicGroup
+        etd:Entity,
+        etd:PopulationGroup ;
+    rdfs:label "Black Patients"@en ;
+    etd:receive "additional care"^^xsd:string ;
+    etd:spend "$1,800 less annually"^^xsd:string ;
+    etd:spent "$1,800 less annually"^^xsd:string .
+
+<https://alfie-project.eu/etd-hub/entity/populationgroup/defendants-lawyers-and-judges-693e8810>
+    rdf:type etd:Entity
+        etd:PopulationGroup ;
+    rdfs:label "Defendants, Lawyers, And Judges"@en ;
+    etd:challenge "a system that lacks algorithmic transparency"^^xsd:string .
+
+<https://alfie-project.eu/etd-hub/entity/populationgroup/individuals-6cb1546d>
+    rdf:type etd:Entity
+        etd:PopulationGroup ;
+    rdfs:label "Individuals"@en ;
+    etd:includes "Broward County, Florida"^^xsd:string
+        "two-year recidivism outcomes"^^xsd:string .
+
+<https://alfie-project.eu/etd-hub/entity/populationgroup/latino-borrowers-ffdabb9c>
+    rdf:type etd:Entity
+        etd:PopulationGroup ;
+    rdfs:label "Latino Borrowers"@en ;
+    etd:pay etd:concept_3_6_basis_points_more_d3f508232a .
+
+<https://alfie-project.eu/etd-hub/entity/populationgroup/minority-communities-dcdabbba>
+    rdf:type etd:DemographicGroup
+        etd:Entity,
+        etd:PopulationGroup ;
+    rdfs:label "Minority Communities"@en .
+
+<https://alfie-project.eu/etd-hub/entity/populationgroup/neighborhoods-with-non-white-and-low-income-populations-cb66a657>
+    rdf:type etd:Entity
+        etd:PopulationGroup ;
+    rdfs:label "Neighborhoods With Non-White And Low-Income Populations"@en .
+
+<https://alfie-project.eu/etd-hub/entity/populationgroup/recruiters-5bb2ef54>
+    rdf:type etd:Entity
+        etd:PopulationGroup ;
+    rdfs:label "Recruiters"@en ;
+    etd:overRely "the outputs of such systems"^^xsd:string .
+
+<https://alfie-project.eu/etd-hub/entity/populationgroup/users-f1171f7e>
+    rdf:type etd:Entity
+        etd:PopulationGroup ;
+    rdfs:label "Users"@en ;
+    etd:trust "the system"^^xsd:string .
+
+<https://alfie-project.eu/etd-hub/entity/process/red-teaming-fc7501b1>
+    rdf:type etd:Entity
+        etd:Process ;
+    rdfs:label "Red Teaming"@en ;
+    etd:simulate "cyberattacks"^^xsd:string .
+
+<https://alfie-project.eu/etd-hub/entity/project/gender-shades-project-23668ff1>
+    rdf:type etd:Entity ;
+    rdfs:label "Gender Shades Project"@en ;
+    etd:demonstrated "light-skinned men"^^xsd:string .
+
+<https://alfie-project.eu/etd-hub/entity/proposition/proposition-body-8-scope-answer-description-11-76746440>
+    rdf:type etd:Entity
+        etd:Proposition ;
+    rdfs:label "Proposition Body:8"@en ;
+    etd:undermine "legal principles such as the right to contest evidence and equal protection under the law"^^xsd:string .
+
+<https://alfie-project.eu/etd-hub/entity/publication/excavating-ai-the-politics-of-training-sets-for-machine-learning-a46f4699>
+    rdf:type bibo:Document
+        etd:Entity,
+        etd:Publication ;
+    rdfs:label "Excavating AI: The Politics Of Training Sets For Machine Learning"@en ;
+    etd:hasurl "Https://Excavating.AI"^^xsd:string ;
+    etd:publishedon <https://alfie-project.eu/etd-hub/entity/date/wikidata-q57350541-8aeca49a> .
+
+<https://alfie-project.eu/etd-hub/entity/publication/wikidata-q27726175-4902e2ea>
+    rdf:type bibo:Document
+        etd:Entity,
+        etd:Publication ;
+    rdfs:label "Big Data & Society"@en ;
+    etd:referencesSource "9(2)"^^xsd:string .
+
+<https://alfie-project.eu/etd-hub/entity/racialbias/systemic-racial-disparities-33ff6476>
+    rdf:type etd:Entity
+        etd:RacialBias,
+        airo:RacialBiasRisk ;
+    rdfs:label "Systemic Racial Disparities"@en .
+
+<https://alfie-project.eu/etd-hub/entity/research/pandey-caliskan-2021-7de09980>
+    rdf:type etd:Entity ;
+    rdfs:label "Pandey & Caliskan (2021)"@en ;
+    etd:analyzed "100+ million rideshare samples"^^xsd:string .
+
+<https://alfie-project.eu/etd-hub/entity/resource/chicago-311-0120f98f>
+    rdf:type dcat:Resource
+        etd:Dataset,
+        etd:Entity,
+        etd:Resource ;
+    rdfs:label "Chicago 311"@en ;
+    etd:referencesSource "https://data.cityofchicago.org/Service-Requests/311-Service-Requests/v6vf-nfxy"^^xsd:string .
+
+<https://alfie-project.eu/etd-hub/entity/resource/datasheets-spec-sheets-0b7044b3>
+    rdf:type dcat:Resource
+        etd:Entity,
+        etd:Resource ;
+    rdfs:label "Datasheets/Spec Sheets"@en ;
+    etd:usedFor "datasets"^^xsd:string .
+
+<https://alfie-project.eu/etd-hub/entity/resource/fairness-toolkits-08cf5087>
+    rdf:type dcat:Resource
+        etd:Entity,
+        etd:Resource ;
+    rdfs:label "Fairness Toolkits"@en ;
+    etd:availableOn "https://fairmlbook.org/datasets.html"^^xsd:string .
+
+<https://alfie-project.eu/etd-hub/entity/resource/nyc-311-b99df52a>
+    rdf:type dcat:Resource
+        etd:Dataset,
+        etd:Entity,
+        etd:Resource ;
+    rdfs:label "NYC 311"@en ;
+    etd:referencesSource "https://data.cityofnewyork.us/Social-Services/311-Service-Requests-from-2010-to-Present/erm2-nwe9"^^xsd:string .
+
+<https://alfie-project.eu/etd-hub/entity/resource/propublica-github-repository-c012afa9>
+    rdf:type dcat:Resource
+        etd:Entity,
+        etd:Resource ;
+    rdfs:label "ProPublica GitHub Repository"@en .
+
+<https://alfie-project.eu/etd-hub/entity/resource/uci-machine-learning-repository-41fb7332>
+    rdf:type dcat:Resource
+        etd:Entity,
+        etd:Resource ;
+    rdfs:label "UCI Machine Learning Repository"@en .
+
+<https://alfie-project.eu/etd-hub/entity/resource/uci-repository-with-socioeconomic-and-crime-data-40c852f6>
+    rdf:type dcat:Resource
+        etd:Entity,
+        etd:Resource ;
+    rdfs:label "UCI Repository With Socioeconomic And Crime Data"@en .
+
+<https://alfie-project.eu/etd-hub/entity/service/uber-9bef23c1>
+    rdf:type etd:Entity
+        etd:Service ;
+    rdfs:label "Uber"@en ;
+    etd:includes "anonymized fare, time, and census tract location information"^^xsd:string .
+
+<https://alfie-project.eu/etd-hub/entity/source/city-of-chicago-open-data-portal-10bb9379>
+    rdf:type etd:Entity
+        etd:Source ;
+    rdfs:label "City Of Chicago Open Data Portal"@en ;
+    etd:analyzed "100+ million rideshare samples"^^xsd:string .
+
+<https://alfie-project.eu/etd-hub/entity/source/dashboard-38344408>
+    rdf:type etd:Entity
+        etd:Source ;
+    rdfs:label "Dashboard"@en ;
+    etd:referencesSource "https://toddwschneider.com/dashboards/chicago-taxi-ridehailing-data/"^^xsd:string .
+
+<https://alfie-project.eu/etd-hub/entity/source/github-analysis-127b2f2d>
+    rdf:type etd:Entity
+        etd:Source ;
+    rdfs:label "GitHub Analysis"@en ;
+    etd:analyzed "100+ million rideshare samples"^^xsd:string .
+
+<https://alfie-project.eu/etd-hub/entity/tool/model-cards-ae9b7228>
+    rdf:type etd:Entity
+        etd:Resource,
+        aipo:AISystem ;
+    rdfs:label "Model Cards"@en ;
+    etd:usedFor "model reporting"^^xsd:string .

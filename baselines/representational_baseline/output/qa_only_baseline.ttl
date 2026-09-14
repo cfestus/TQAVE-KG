@@ -1,0 +1,1593 @@
+@prefix etd: <https://alfie-project.eu/etd-hub#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+etd:answer-18 a etd:Answer ;
+    rdfs:label "Yeah this is a really important consideration when you don't have a 'gold standa" ;
+    etd:answerId 18 ;
+    etd:answersQuestion etd:question-18 ;
+    etd:authoredBy etd:expert-10 ;
+    etd:created_at "2025-07-22T14:49:27.440000+00:00"^^xsd:dateTime ;
+    etd:description "Yeah this is a really important consideration when you don't have a 'gold standard' label, like 'death' but something more objective." ;
+    etd:expertId 10 ;
+    etd:questionId 18 .
+
+etd:answer-19 a etd:Answer ;
+    rdfs:label "Sorry I thought you meant predicting performance and performance of existing emp" ;
+    etd:answerId 19 ;
+    etd:answersQuestion etd:question-17 ;
+    etd:authoredBy etd:expert-19 ;
+    etd:created_at "2025-07-22T14:58:22.151000+00:00"^^xsd:dateTime ;
+    etd:description "Sorry I thought you meant predicting performance and performance of existing employees." ;
+    etd:expertId 19 ;
+    etd:questionId 17 .
+
+etd:answer-20 a etd:Answer ;
+    rdfs:label "You can reply to Questions!!" ;
+    etd:answerId 20 ;
+    etd:answersQuestion etd:question-14 ;
+    etd:authoredBy etd:expert-2 ;
+    etd:created_at "2025-07-22T15:57:39.650000+00:00"^^xsd:dateTime ;
+    etd:description "You can reply to Questions!!" ;
+    etd:expertId 2 ;
+    etd:parentAnswer etd:answer-11 ;
+    etd:parentId 11 ;
+    etd:questionId 14 .
+
+etd:answer-21 a etd:Answer ;
+    rdfs:label "Hello! Thanks so much for pointing this out - replies are now (hopefully) fixed" ;
+    etd:answerId 21 ;
+    etd:answersQuestion etd:question-17 ;
+    etd:authoredBy etd:expert-5 ;
+    etd:created_at "2025-07-22T17:21:20.967000+00:00"^^xsd:dateTime ;
+    etd:description "Hello! Thanks so much for pointing this out - replies are now (hopefully) fixed :)" ;
+    etd:expertId 5 ;
+    etd:parentAnswer etd:answer-16 ;
+    etd:parentId 16 ;
+    etd:questionId 17 .
+
+etd:answer-22 a etd:Answer ;
+    rdfs:label "Hello Yuan! Welcome!" ;
+    etd:answerId 22 ;
+    etd:answersQuestion etd:question-14 ;
+    etd:authoredBy etd:expert-5 ;
+    etd:created_at "2025-07-22T17:24:38.376000+00:00"^^xsd:dateTime ;
+    etd:description "Hello Yuan! Welcome!" ;
+    etd:expertId 5 ;
+    etd:parentAnswer etd:answer-12 ;
+    etd:parentId 12 ;
+    etd:questionId 14 .
+
+etd:answer-25 a etd:Answer ;
+    rdfs:label "Also another thought - for an employer maybe something better is just to flag so" ;
+    etd:answerId 25 ;
+    etd:answersQuestion etd:question-17 ;
+    etd:authoredBy etd:expert-5 ;
+    etd:created_at "2025-07-23T09:35:40.286000+00:00"^^xsd:dateTime ;
+    etd:description """Also another thought - for an employer maybe something better is just to flag somebody who definitely *wont* work out at the job due to some very specific criteria such as a conviction which will cause something like a DBS or Background check to fail, which is a requirement for the job.\r
+\r
+In this case you could definitely say the model is completely ethical because it is just searching for a practically disqualifying criteria and marking the user as unsuitable because it is genuinely impossible.\r
+\r
+In this case, you probably have to tackle preventing misuse - i.e. somebody applying the model to a criteria which is not practically disqualifying but preferentially disqualifying.\r
+\r
+Also I suppose this then ends up being something different as a tool - I'm just thinking out loud.""" ;
+    etd:expertId 5 ;
+    etd:questionId 17 .
+
+etd:answer-26 a etd:Answer ;
+    rdfs:label "You are right to be excited - be prepared to be both technically 'wowed' and fil" ;
+    etd:answerId 26 ;
+    etd:answersQuestion etd:question-17 ;
+    etd:authoredBy etd:expert-10 ;
+    etd:created_at "2025-07-23T10:05:31.773000+00:00"^^xsd:dateTime ;
+    etd:description "You are right to be excited - be prepared to be both technically 'wowed' and filled with existential dread.  Woo!" ;
+    etd:expertId 10 ;
+    etd:parentAnswer etd:answer-24 ;
+    etd:parentId 24 ;
+    etd:questionId 17 .
+
+etd:answer-27 a etd:Answer ;
+    rdfs:label "also the voting function seems to be broken haha" ;
+    etd:answerId 27 ;
+    etd:answersQuestion etd:question-17 ;
+    etd:authoredBy etd:expert-10 ;
+    etd:created_at "2025-07-23T10:06:03.384000+00:00"^^xsd:dateTime ;
+    etd:description "also the voting function seems to be broken haha" ;
+    etd:expertId 10 ;
+    etd:parentAnswer etd:answer-24 ;
+    etd:parentId 24 ;
+    etd:questionId 17 .
+
+etd:answer-28 a etd:Answer ;
+    rdfs:label "From a fiction perspective, there was a (fairly controversial) book called We Ha" ;
+    etd:answerId 28 ;
+    etd:answersQuestion etd:question-22 ;
+    etd:authoredBy etd:expert-10 ;
+    etd:created_at "2025-07-23T11:57:34.455000+00:00"^^xsd:dateTime ;
+    etd:description """From a fiction perspective, there was a (fairly controversial) book called We Had To Remove This Post by Hanna Bervoets which I (mostly) enjoyed.  \r
+\r
+https://www.goodreads.com/book/show/58146427-we-had-to-remove-this-post""" ;
+    etd:expertId 10 ;
+    etd:questionId 22 .
+
+etd:answer-30 a etd:Answer ;
+    rdfs:label "Interesting resources, thank you for sharing!" ;
+    etd:answerId 30 ;
+    etd:answersQuestion etd:question-22 ;
+    etd:authoredBy etd:expert-52 ;
+    etd:created_at "2025-08-11T12:42:20.940000+00:00"^^xsd:dateTime ;
+    etd:description "Interesting resources, thank you for sharing!" ;
+    etd:expertId 52 ;
+    etd:questionId 22 .
+
+etd:answer-31 a etd:Answer ;
+    rdfs:label "Thank you so much." ;
+    etd:answerId 31 ;
+    etd:answersQuestion etd:question-22 ;
+    etd:authoredBy etd:expert-56 ;
+    etd:created_at "2025-09-08T15:52:29.198000+00:00"^^xsd:dateTime ;
+    etd:description "Thank you so much." ;
+    etd:expertId 56 ;
+    etd:questionId 22 .
+
+etd:expert-1 a etd:Expert ;
+    rdfs:label "NGO" ;
+    etd:area_of_expertise "NGO" ;
+    etd:bio "A nice bio is added now" ;
+    etd:date_joined "2025-06-26T20:26:54+00:00"^^xsd:dateTime ;
+    etd:expertId 1 ;
+    etd:isDeleted false ;
+    etd:profile_picture "imgs/experts/1.jpeg" ;
+    etd:userId 2 .
+
+etd:expert-12 a etd:Expert ;
+    rdfs:label "Policy" ;
+    etd:area_of_expertise "Policy" ;
+    etd:date_joined "2025-07-22T09:03:04+00:00"^^xsd:dateTime ;
+    etd:expertId 12 ;
+    etd:isDeleted false ;
+    etd:userId 13 .
+
+etd:expert-14 a etd:Expert ;
+    rdfs:label "AI Ethics Expert" ;
+    etd:area_of_expertise "AI Ethics Expert" ;
+    etd:date_joined "2025-07-22T09:03:06+00:00"^^xsd:dateTime ;
+    etd:expertId 14 ;
+    etd:isDeleted false ;
+    etd:userId 15 .
+
+etd:expert-15 a etd:Expert ;
+    rdfs:label "Legal Professional" ;
+    etd:area_of_expertise "Legal Professional" ;
+    etd:date_joined "2025-07-22T09:03:09+00:00"^^xsd:dateTime ;
+    etd:expertId 15 ;
+    etd:isDeleted false ;
+    etd:userId 16 .
+
+etd:expert-16 a etd:Expert ;
+    rdfs:label "AI Ethics Expert" ;
+    etd:area_of_expertise "AI Ethics Expert" ;
+    etd:date_joined "2025-07-22T09:03:11+00:00"^^xsd:dateTime ;
+    etd:expertId 16 ;
+    etd:isDeleted false ;
+    etd:userId 17 .
+
+etd:expert-17 a etd:Expert ;
+    rdfs:label "AI Expert" ;
+    etd:area_of_expertise "AI Expert" ;
+    etd:date_joined "2025-07-22T09:03:17+00:00"^^xsd:dateTime ;
+    etd:expertId 17 ;
+    etd:isDeleted false ;
+    etd:userId 18 .
+
+etd:expert-18 a etd:Expert ;
+    rdfs:label "Policy" ;
+    etd:area_of_expertise "Policy" ;
+    etd:date_joined "2025-07-22T09:03:18+00:00"^^xsd:dateTime ;
+    etd:expertId 18 ;
+    etd:isDeleted false ;
+    etd:userId 19 .
+
+etd:expert-20 a etd:Expert ;
+    rdfs:label "AI Ethics Expert" ;
+    etd:area_of_expertise "AI Ethics Expert" ;
+    etd:date_joined "2025-07-22T09:03:20+00:00"^^xsd:dateTime ;
+    etd:expertId 20 ;
+    etd:isDeleted false ;
+    etd:userId 21 .
+
+etd:expert-21 a etd:Expert ;
+    rdfs:label "Research" ;
+    etd:area_of_expertise "Research" ;
+    etd:date_joined "2025-07-22T09:03:25+00:00"^^xsd:dateTime ;
+    etd:expertId 21 ;
+    etd:isDeleted false ;
+    etd:userId 22 .
+
+etd:expert-23 a etd:Expert ;
+    rdfs:label "AI Expert" ;
+    etd:area_of_expertise "AI Expert" ;
+    etd:date_joined "2025-07-22T09:03:28+00:00"^^xsd:dateTime ;
+    etd:expertId 23 ;
+    etd:isDeleted false ;
+    etd:userId 24 .
+
+etd:expert-24 a etd:Expert ;
+    rdfs:label "Legal Professional" ;
+    etd:area_of_expertise "Legal Professional" ;
+    etd:date_joined "2025-07-22T09:03:37+00:00"^^xsd:dateTime ;
+    etd:expertId 24 ;
+    etd:isDeleted false ;
+    etd:userId 25 .
+
+etd:expert-26 a etd:Expert ;
+    rdfs:label "Research" ;
+    etd:area_of_expertise "Research" ;
+    etd:date_joined "2025-07-22T09:03:41+00:00"^^xsd:dateTime ;
+    etd:expertId 26 ;
+    etd:isDeleted false ;
+    etd:userId 27 .
+
+etd:expert-28 a etd:Expert ;
+    rdfs:label "Research" ;
+    etd:area_of_expertise "Research" ;
+    etd:date_joined "2025-07-22T09:03:53+00:00"^^xsd:dateTime ;
+    etd:expertId 28 ;
+    etd:isDeleted false ;
+    etd:userId 29 .
+
+etd:expert-29 a etd:Expert ;
+    rdfs:label "Research" ;
+    etd:area_of_expertise "Research" ;
+    etd:date_joined "2025-07-22T09:03:54+00:00"^^xsd:dateTime ;
+    etd:expertId 29 ;
+    etd:isDeleted false ;
+    etd:userId 30 .
+
+etd:expert-30 a etd:Expert ;
+    rdfs:label "AI Ethics Expert" ;
+    etd:area_of_expertise "AI Ethics Expert" ;
+    etd:date_joined "2025-07-22T09:03:54+00:00"^^xsd:dateTime ;
+    etd:expertId 30 ;
+    etd:isDeleted false ;
+    etd:userId 31 .
+
+etd:expert-32 a etd:Expert ;
+    rdfs:label "Research" ;
+    etd:area_of_expertise "Research" ;
+    etd:date_joined "2025-07-22T09:03:58+00:00"^^xsd:dateTime ;
+    etd:expertId 32 ;
+    etd:isDeleted false ;
+    etd:userId 33 .
+
+etd:expert-33 a etd:Expert ;
+    rdfs:label "AI Ethics Expert" ;
+    etd:area_of_expertise "AI Ethics Expert" ;
+    etd:date_joined "2025-07-22T09:04:05+00:00"^^xsd:dateTime ;
+    etd:expertId 33 ;
+    etd:isDeleted false ;
+    etd:userId 34 .
+
+etd:expert-34 a etd:Expert ;
+    rdfs:label "AI Ethics Expert" ;
+    etd:area_of_expertise "AI Ethics Expert" ;
+    etd:date_joined "2025-07-22T09:04:21+00:00"^^xsd:dateTime ;
+    etd:expertId 34 ;
+    etd:isDeleted false ;
+    etd:userId 35 .
+
+etd:expert-35 a etd:Expert ;
+    rdfs:label "Research" ;
+    etd:area_of_expertise "Research" ;
+    etd:date_joined "2025-07-22T09:04:24+00:00"^^xsd:dateTime ;
+    etd:expertId 35 ;
+    etd:isDeleted false ;
+    etd:userId 36 .
+
+etd:expert-39 a etd:Expert ;
+    rdfs:label "AI Expert" ;
+    etd:area_of_expertise "AI Expert" ;
+    etd:date_joined "2025-07-22T09:04:49+00:00"^^xsd:dateTime ;
+    etd:expertId 39 ;
+    etd:isDeleted false ;
+    etd:userId 40 .
+
+etd:expert-40 a etd:Expert ;
+    rdfs:label "Research" ;
+    etd:area_of_expertise "Research" ;
+    etd:date_joined "2025-07-22T09:05:01+00:00"^^xsd:dateTime ;
+    etd:expertId 40 ;
+    etd:isDeleted false ;
+    etd:userId 41 .
+
+etd:expert-41 a etd:Expert ;
+    rdfs:label "AI Ethics Expert" ;
+    etd:area_of_expertise "AI Ethics Expert" ;
+    etd:date_joined "2025-07-22T09:05:14+00:00"^^xsd:dateTime ;
+    etd:expertId 41 ;
+    etd:isDeleted false ;
+    etd:userId 42 .
+
+etd:expert-42 a etd:Expert ;
+    rdfs:label "AI Ethics Expert" ;
+    etd:area_of_expertise "AI Ethics Expert" ;
+    etd:date_joined "2025-07-22T09:05:31+00:00"^^xsd:dateTime ;
+    etd:expertId 42 ;
+    etd:isDeleted false ;
+    etd:userId 43 .
+
+etd:expert-43 a etd:Expert ;
+    rdfs:label "AI Ethics Expert" ;
+    etd:area_of_expertise "AI Ethics Expert" ;
+    etd:date_joined "2025-07-22T09:06:18+00:00"^^xsd:dateTime ;
+    etd:expertId 43 ;
+    etd:isDeleted false ;
+    etd:userId 44 .
+
+etd:expert-44 a etd:Expert ;
+    rdfs:label "Legal Professional" ;
+    etd:area_of_expertise "Legal Professional" ;
+    etd:date_joined "2025-07-22T09:06:32+00:00"^^xsd:dateTime ;
+    etd:expertId 44 ;
+    etd:isDeleted false ;
+    etd:userId 45 .
+
+etd:expert-45 a etd:Expert ;
+    rdfs:label "Research" ;
+    etd:area_of_expertise "Research" ;
+    etd:date_joined "2025-07-22T09:07:45+00:00"^^xsd:dateTime ;
+    etd:expertId 45 ;
+    etd:isDeleted false ;
+    etd:userId 46 .
+
+etd:expert-46 a etd:Expert ;
+    rdfs:label "AI Ethics Expert" ;
+    etd:area_of_expertise "AI Ethics Expert" ;
+    etd:bio "Testing my bio" ;
+    etd:date_joined "2025-07-22T09:21:39+00:00"^^xsd:dateTime ;
+    etd:expertId 46 ;
+    etd:isDeleted false ;
+    etd:userId 47 .
+
+etd:expert-48 a etd:Expert ;
+    rdfs:label "AI Ethics Expert" ;
+    etd:area_of_expertise "AI Ethics Expert" ;
+    etd:date_joined "2025-07-22T15:02:52+00:00"^^xsd:dateTime ;
+    etd:expertId 48 ;
+    etd:isDeleted false ;
+    etd:userId 49 .
+
+etd:expert-51 a etd:Expert ;
+    rdfs:label "Research" ;
+    etd:area_of_expertise "Research" ;
+    etd:date_joined "2025-07-31T07:42:36+00:00"^^xsd:dateTime ;
+    etd:expertId 51 ;
+    etd:isDeleted false ;
+    etd:userId 52 .
+
+etd:expert-53 a etd:Expert ;
+    rdfs:label "Research" ;
+    etd:area_of_expertise "Research" ;
+    etd:date_joined "2025-08-06T07:13:01+00:00"^^xsd:dateTime ;
+    etd:expertId 53 ;
+    etd:isDeleted false ;
+    etd:userId 54 .
+
+etd:expert-54 a etd:Expert ;
+    rdfs:label "AI Ethics Expert" ;
+    etd:area_of_expertise "AI Ethics Expert" ;
+    etd:date_joined "2025-08-17T23:41:33.713000+00:00"^^xsd:dateTime ;
+    etd:expertId 54 ;
+    etd:isDeleted false ;
+    etd:profile_picture "imgs/experts/54.jpg" ;
+    etd:userId 55 .
+
+etd:expert-55 a etd:Expert ;
+    rdfs:label "Research" ;
+    etd:area_of_expertise "Research" ;
+    etd:date_joined "2025-09-03T08:39:30+00:00"^^xsd:dateTime ;
+    etd:expertId 55 ;
+    etd:isDeleted false ;
+    etd:userId 56 .
+
+etd:expert-57 a etd:Expert ;
+    rdfs:label "AI Expert" ;
+    etd:area_of_expertise "AI Expert" ;
+    etd:date_joined "2025-09-12T10:41:31+00:00"^^xsd:dateTime ;
+    etd:expertId 57 ;
+    etd:isDeleted false ;
+    etd:userId 58 .
+
+etd:expert-58 a etd:Expert ;
+    rdfs:label "Research" ;
+    etd:area_of_expertise "Research" ;
+    etd:date_joined "2025-10-08T11:34:52+00:00"^^xsd:dateTime ;
+    etd:expertId 58 ;
+    etd:isDeleted false ;
+    etd:userId 59 .
+
+etd:expert-7 a etd:Expert ;
+    rdfs:label "AI Ethics Expert" ;
+    etd:area_of_expertise "AI Ethics Expert" ;
+    etd:date_joined "2025-07-22T09:02:05+00:00"^^xsd:dateTime ;
+    etd:expertId 7 ;
+    etd:isDeleted false ;
+    etd:profile_picture "imgs/experts/7.jpg" ;
+    etd:userId 8 .
+
+etd:expert-9 a etd:Expert ;
+    rdfs:label "Legal Professional" ;
+    etd:area_of_expertise "Legal Professional" ;
+    etd:date_joined "2025-07-22T09:02:46+00:00"^^xsd:dateTime ;
+    etd:expertId 9 ;
+    etd:isDeleted false ;
+    etd:userId 10 .
+
+etd:question-19 a etd:Question ;
+    rdfs:label "Who CAN I discriminate against?" ;
+    etd:authoredBy etd:expert-10 ;
+    etd:belongsToTheme etd:theme-10 ;
+    etd:body """Okay, the title was inflammatory on purpose, but hear me out!\r
+\r
+What makes one characteristic ethically okay to consider during the application process (such as whether their education was relevant to the role) but one not (such as gender), besides the LAW? \r
+\r
+If we're going to be completely amoral and only focussed on metrics like staff retention, then women often take maternity leave for example, which causes issues with handovers and temporary staffing.  But it is obviously WRONG to discriminate against women for this.  Not just illegal but morally rubbish.\r
+\r
+Having a degree in horse psychotherapy is not relevant to a coding job, so not hiring someone for that reason is valid and it's not discrimination. \r
+\r
+These are extremes.  What about smokers (lower productivity and more time off on average) versus non-smokers?  Where is the line? What makes it DISCRIMINATION?\r
+\r
+LET'S GET PHILOSOPHICAL!""" ;
+    etd:created_at "2025-07-23T10:40:30.401000+00:00"^^xsd:dateTime ;
+    etd:expertId 10 ;
+    etd:questionId 19 ;
+    etd:themeId 10 ;
+    etd:title "Who CAN I discriminate against?" ;
+    etd:views 39 .
+
+etd:question-21 a etd:Question ;
+    rdfs:label "How do you feel about current efforts to regulate AI (like the EU AI Act)? Are they moving fast enough?" ;
+    etd:authoredBy etd:expert-49 ;
+    etd:belongsToTheme etd:theme-8 ;
+    etd:body """Criteria\r
+1) Adequate (do they address real risks?)\r
+2) Timely (are they keeping pace with the speed of AI innovation?)\r
+3) Effective (do they actually lead to safer, fairer AI in practice?)\r
+\r
+What we are looking for\r
+A) The expert’s policy stance \r
+B) Whether they think current laws are future-proof\r
+C) Their views on global cooperation vs. fragmented governance\r
+D) What they think is missing or urgently needed""" ;
+    etd:created_at "2025-07-23T11:46:25.273000+00:00"^^xsd:dateTime ;
+    etd:expertId 49 ;
+    etd:questionId 21 ;
+    etd:themeId 8 ;
+    etd:title "How do you feel about current efforts to regulate AI (like the EU AI Act)? Are they moving fast enough?" ;
+    etd:views 43 .
+
+etd:theme-11 a etd:Theme ;
+    rdfs:label "Education: Automated Essay Scoring Bias" ;
+    etd:authoredBy etd:expert-5 ;
+    etd:created_at "2025-07-21T00:07:26+00:00"^^xsd:dateTime ;
+    etd:description """**Domain**: Education/Assessment  \r
+**Description**: Automated Essay Scoring (AES) systems show systematic bias against students from marginalized groups. 2024 studies found GPT-4o incorrectly predicted academic failure for Black students 19% of the time vs. 12% for white students.\r
+\r
+**Ethical Challenges**:\r
+\r
+* **Linguistic Bias**: Against non-native English speakers and dialectal variations  \r
+* **Cultural Bias**: Preference for mainstream cultural references and writing conventions  \r
+* **Socioeconomic Bias**: Correlated with writing style differences across economic classes  \r
+* **Educational Gap Perpetuation**: Biased algorithms can reinforce existing educational disparities\r
+\r
+**Public Datasets**:\r
+\r
+* **Primary**: ASAP (Automated Student Assessment Prize) Dataset  \r
+* **URL**: https://www.kaggle.com/c/asap-aes/data  \r
+* **Papers with Code**: https://paperswithcode.com/dataset/asap  \r
+* **Source**: Kaggle Competition Data  \r
+* **Content**: \\~12,800 essays from grades 7-10 across 8 different prompts  \r
+* **Enhanced**: ASAP 2.0 Dataset (2024) \\- 24,000 argumentative essays with explicit bias considerations  \r
+* **ASAP 2.0 URL**: https://the-learning-agency-lab.com/learning-exchange/asap-2-0-dataset/  \r
+* **GitHub Implementation**: https://github.com/Turanga1/Automated-Essay-Scoring""" ;
+    etd:domain_category "Education" ;
+    etd:expertId 5 ;
+    etd:model_category "Machine Learning" ;
+    etd:name "Education: Automated Essay Scoring Bias" ;
+    etd:problem_category "AI BIAS" ;
+    etd:themeId 11 ;
+    etd:views 0 .
+
+etd:theme-13 a etd:Theme ;
+    rdfs:label "Transportation: Rideshare Price Discrimination" ;
+    etd:authoredBy etd:expert-5 ;
+    etd:created_at "2025-07-21T00:13:33+00:00"^^xsd:dateTime ;
+    etd:description """**Domain**: Transportation/Gig Economy  \r
+**Description**: Pandey & Caliskan (2021) analyzed 100+ million rideshare samples in Chicago, finding that dynamic pricing algorithms systematically discriminate against neighborhoods with non-white and low-income populations.\r
+\r
+**Ethical Challenges**:\r
+\r
+* **Geographic Bias**: Neighborhoods with larger non-white populations charged significantly higher fares  \r
+* **Socioeconomic Bias**: Higher poverty areas face pricing discrimination  \r
+* **Algorithmic Opacity**: Dynamic pricing systems without transparency  \r
+* **Historical Discrimination Reinforcement**: Perpetuation of historical transportation discrimination\r
+\r
+**Public Datasets**:\r
+\r
+* **Primary**: Chicago Transportation Network Provider (TNP) Trips Dataset  \r
+* **URL**: https://data.cityofchicago.org/Transportation/Transportation-Network-Providers-Trips/m6dm-c72p  \r
+* **Source**: City of Chicago Open Data Portal  \r
+* **GitHub Analysis**: https://github.com/toddwschneider/chicago-taxi-data  \r
+* **Dashboard**: https://toddwschneider.com/dashboards/chicago-taxi-ridehailing-data/  \r
+* **Content**: 100+ million rideshare samples analyzed (2018-present)  \r
+* **Includes**: Uber, Lyft, Via data with anonymized fare, time, and census tract location information""" ;
+    etd:domain_category "Transport" ;
+    etd:expertId 5 ;
+    etd:model_category "Machine Learning" ;
+    etd:name "Transportation: Rideshare Price Discrimination" ;
+    etd:problem_category "AI BIAS" ;
+    etd:themeId 13 ;
+    etd:views 0 .
+
+etd:theme-15 a etd:Theme ;
+    rdfs:label "Insurance: Algorithmic Underwriting Bias" ;
+    etd:authoredBy etd:expert-5 ;
+    etd:created_at "2025-07-21T00:15:00+00:00"^^xsd:dateTime ;
+    etd:description """**Domain**: Insurance/Risk Assessment  \r
+**Description**: AI-powered insurance underwriting systems show bias in risk assessment and pricing, particularly affecting minority communities and certain geographic areas.\r
+\r
+**Ethical Challenges**:\r
+\r
+* **Proxy Discrimination**: Use of zip codes and other proxies that correlate with protected characteristics  \r
+* **Historical Data Bias**: Training on historical data that reflects past discriminatory practices  \r
+* **Disparate Impact**: Higher premiums for equivalent risk profiles in minority communities  \r
+* **Regulatory Compliance**: Violation of fair lending and anti-discrimination laws\r
+\r
+**Public Datasets**:\r
+\r
+* **Communities and Crime Dataset**: UCI repository with socioeconomic and crime data  \r
+* **URL**: https://archive.ics.uci.edu/dataset/183/communities+and+crime  \r
+* **German Credit Dataset**: Classic fairness benchmark for credit risk assessment  \r
+* **URL**: https://archive.ics.uci.edu/dataset/144/statlog+german+credit+data  \r
+* **Default of Credit Card Clients**: Taiwan dataset for credit default prediction  \r
+* **URL**: https://archive.ics.uci.edu/dataset/350/default+of+credit+card+clients""" ;
+    etd:domain_category "Finance" ;
+    etd:expertId 5 ;
+    etd:model_category "Machine Learning" ;
+    etd:name "Insurance: Algorithmic Underwriting Bias" ;
+    etd:problem_category "AI BIAS" ;
+    etd:themeId 15 ;
+    etd:views 0 .
+
+etd:theme-16 a etd:Theme ;
+    rdfs:label "Smart Cities: Urban Planning Algorithm Bias" ;
+    etd:authoredBy etd:expert-5 ;
+    etd:created_at "2025-07-21T00:15:37+00:00"^^xsd:dateTime ;
+    etd:description """**Domain**: Urban Planning/Smart Cities  \r
+**Description**: Smart city algorithms for resource allocation, traffic management, and urban planning show systematic bias against underserved communities.\r
+\r
+**Ethical Challenges**:\r
+\r
+* **Resource Allocation Bias**: Unequal distribution of city services and infrastructure investments  \r
+* **Environmental Justice**: Disproportionate placement of polluting facilities in minority neighborhoods  \r
+* **Digital Divide**: Algorithms that favor areas with better data coverage  \r
+* **Participation Inequality**: Underrepresentation of marginalized voices in data collection\r
+\r
+**Public Datasets**:\r
+\r
+* **NYC Open Data**: Comprehensive city services and demographics data  \r
+* **URL**: https://opendata.cityofnewyork.us/  \r
+* **Boston Street Bump Dataset**: Crowdsourced road condition data showing geographic bias  \r
+* **URL**: https://data.boston.gov/dataset/street-bump-pothole-reports  \r
+* **311 Service Requests**: Multi-city datasets showing service request patterns  \r
+* **NYC 311**: https://data.cityofnewyork.us/Social-Services/311-Service-Requests-from-2010-to-Present/erm2-nwe9  \r
+* **Chicago 311**: https://data.cityofchicago.org/Service-Requests/311-Service-Requests/v6vf-nfxy""" ;
+    etd:domain_category "Urban Planning" ;
+    etd:expertId 5 ;
+    etd:model_category "Machine Learning" ;
+    etd:name "Smart Cities: Urban Planning Algorithm Bias" ;
+    etd:problem_category "AI BIAS" ;
+    etd:themeId 16 ;
+    etd:views 0 .
+
+etd:theme-17 a etd:Theme ;
+    rdfs:label "E-commerce: Recommendation System Bias" ;
+    etd:authoredBy etd:expert-5 ;
+    etd:created_at "2025-07-21T00:16:16+00:00"^^xsd:dateTime ;
+    etd:description """**Domain**: E-commerce/Recommendation Systems  \r
+**Description**: Online marketplace recommendation algorithms show bias in product suggestions, affecting business opportunities for minority-owned businesses and perpetuating stereotypes.\r
+\r
+**Ethical Challenges**:\r
+\r
+* **Economic Opportunity Bias**: Reduced visibility for minority-owned businesses  \r
+* **Stereotype Reinforcement**: Algorithms that reinforce gender and racial stereotypes in product recommendations  \r
+* **Filter Bubbles**: Creation of echo chambers that limit exposure to diverse products and sellers  \r
+* **Price Discrimination**: Dynamic pricing that varies based on user demographics\r
+\r
+**Public Datasets**:\r
+\r
+* **Amazon Product Review Dataset**: Large-scale product reviews with potential demographic indicators  \r
+* **URL**: https://nijianmo.github.io/amazon/index.html  \r
+* **Yelp Open Dataset**: Business reviews and ratings with geographic and demographic patterns  \r
+* **URL**: https://www.yelp.com/dataset  \r
+* **RecSys Challenge Datasets**: Annual competition datasets for recommendation systems  \r
+* **URL**: https://recsys.acm.org/recsys-challenge/""" ;
+    etd:domain_category "Marketing & Sales" ;
+    etd:expertId 5 ;
+    etd:model_category "Machine Learning" ;
+    etd:name "E-commerce: Recommendation System Bias" ;
+    etd:problem_category "AI BIAS" ;
+    etd:themeId 17 ;
+    etd:views 0 .
+
+etd:theme-9 a etd:Theme ;
+    rdfs:label "Financial Services: Mortgage Lending Discrimination" ;
+    etd:authoredBy etd:expert-5 ;
+    etd:created_at "2025-07-20T08:42:30+00:00"^^xsd:dateTime ;
+    etd:description """**Domain**: Financial Services/Lending  \r
+**Description**: Bartlett et al. analysis of HMDA dataset revealed systematic discrimination in mortgage lending, with Black and Latino borrowers paying higher interest rates despite similar risk profiles.\r
+\r
+**Ethical Challenges**:\r
+\r
+* **Racial/Ethnic Bias**: Black and Latino borrowers pay 7.9 and 3.6 basis points more respectively  \r
+* **Economic Impact**: Results in $765M+ annually in excessive interest payments  \r
+* **Digital Redlining**: Algorithmic discrimination in historically disadvantaged neighborhoods  \r
+* **Intersectional Bias**: Particularly affects African American women\r
+\r
+**Public Datasets**:\r
+\r
+* **Primary**: Home Mortgage Disclosure Act (HMDA) Dataset  \r
+* **URL**: https://www.consumerfinance.gov/data-research/hmda/  \r
+* **Data Portal**: https://ffiec.cfpb.gov/data-publication/  \r
+* **Historical Data**: https://catalog.data.gov/dataset/home-mortgage-disclosure-act-hmda-public-data-from-2007-2017  \r
+* **Source**: Federal Financial Institutions Examination Council  \r
+* **Content**: 88-90% of all U.S. mortgage loans since 1975, with enhanced data since 2017  \r
+* **Includes**: Loan applications, approvals, denials, applicant demographics, loan terms, property location, lender information\r
+\r
+**Additional Dataset**:\r
+\r
+* **Supplementary**: Fannie Mae and Freddie Mac Loan-Level Dataset  \r
+* **URL**: https://www.kaggle.com/datasets/thedevastator/2016-fannie-mae-and-freddie-mac-loan-level-datas""" ;
+    etd:domain_category "Finance" ;
+    etd:expertId 5 ;
+    etd:model_category "Machine Learning" ;
+    etd:name "Financial Services: Mortgage Lending Discrimination" ;
+    etd:problem_category "AI BIAS" ;
+    etd:themeId 9 ;
+    etd:views 0 .
+
+etd:answer-23 a etd:Answer ;
+    rdfs:label "I would echo Holly & Adrian - really good points. Might I also suggest: Algorith" ;
+    etd:answerId 23 ;
+    etd:answersQuestion etd:question-16 ;
+    etd:authoredBy etd:expert-47 ;
+    etd:created_at "2025-07-22T17:38:51.958000+00:00"^^xsd:dateTime ;
+    etd:description """I would echo Holly & Adrian - really good points. Might I also suggest:\r
+\r
+Algorithms can perpetuate or even amplify existing biases if they are trained on biased historical data (e.g., past job match/hiring decisions that favored certain genders, ethnicities, or age groups). Such bias can occur even if the relevant data on the CV is obfuscated from the model because other elements may 'proxy' this information. This is one of the major challenges to solve for a fair job matching AI.\r
+\r
+Additionally, CVs/Resumes usually contain at least some sensitive personal data. Improper handling can lead to data breaches or misuse. This must be mitigated somehow. Somewhat related is that we don't really know how ChatGPT will look to monetise, and for now OpenAI are being forced to retain ALL chatlogs due to a court decision (even before they would retain this unless you opted out) so who knows what may happen to this data if for example an organisation uses the OpenAI API for this process.""" ;
+    etd:expertId 47 ;
+    etd:hasVote etd:vote-74 ;
+    etd:questionId 16 .
+
+etd:answer-29 a etd:Answer ;
+    rdfs:label "This is a very big and interesting idea to grapple with. In terms of **A**, I th" ;
+    etd:answerId 29 ;
+    etd:answersQuestion etd:question-20 ;
+    etd:authoredBy etd:expert-5 ;
+    etd:created_at "2025-07-23T17:20:52.196000+00:00"^^xsd:dateTime ;
+    etd:description """This is a very big and interesting idea to grapple with. \r
+\r
+In terms of **A**, I think building a robust audit process starts with building a not-so robust audit process. I would say that there's a practical answer to this question and also a more 'philosphical' one in terms of how you do the practical process (ways of working).\r
+\r
+So the first stage of the practical process is creating your initial, relatively naive ethical AI approach:\r
+\r
+A good jumping off point is to begin conducting some research and using this to build an *ethical* framework for your audit process. First port of call is to select an ethical/policy basis that you believe in or you know is going to legally apply to your use case(s), e.g. AI for Good initiative recommendations. You can use this policy basis to codify the standards, transparency processes, & alignment with regulation you need to meet, and which you will need to test for adherence to in your *technical* audit process. Then you can build a simple technical auditing framework by answering the following questions: what statistical methods will be used to test data/model fairness/quality, and how will this vary based on the type of data/model? How do these tests relate back to the standards outlined in your ethical framework, and what is your acceptance threshold/definition of done? Again, you will most likely need to perform some kind of literature review here to select tools & algorithms that are the most robust in criteria that make sense to your team. You should discuss with technical & non-technical stakeholders as you do this to make sure as much is captured as possible. Crucially, these frameworks should be living artefacts that are regularly reviewed and reflected on. This should enable them to grow alongside changing science, policy, & your learning from auditing mistakes (there will be many of these, especially early on).\r
+\r
+This is the very basic level you need to reach before you can start making things more robust. Once you've got a simple approach down you can start to test out more layers & techniques, & based on their efficacy introduce them permanently into your frameworks. The sky is the limit here, but we have used the following approaches at my company to great success:\r
+\r
+Red teaming is a concept in cybersecurity wherein ethical hackers simulate cyberattacks against your organisation's systems. You can do the same thing for ethical AI; for example attempt to build an adversarial model that can infer protected characteristics from your model. Introducing documentation requirements is also helpful, because A it encourages people to think about things and B it makes it easier to decide on testing methods from your framework to apply. You can use Model Cards for model reporting and Datasheets/Spec Sheets for datasets to capture details like intended use, limitations, & testing conditions. Requiring audit trails during your audit & development processes can also make them more robust. Log all design decisions, training data sources, & evaluation processes. Where possible, you should connect them to artefacts & sign-offs so they are verifiable & misuse is discouraged.\r
+\r
+So practically, this is how I think you can build a robust auditing process. On a more 'ways of working' level, I think a great process can only be built in an augmented captial-a Agile or SCRUM kind of way (i.e. cycling but retaining quite comprehensive documentation so learning gets embedded, maybe you could even knowledge graph on top of this?):\r
+\r
+I think there needs to be a repeating cycle of research, discussion, trying, learning, & documenting in order to develop anything close to a solid audit process. I also think that if organisations/teams do this, share their approach publically, or at least across the organisation in sensitive contexts, & then discuss/reject/adopt incoming critique this process can be supercharged. On top of this, I believe that adopting the Agile/SCRUM idea of 'living' the Agile values & processes is also necessary. Accepting failure, never assigning individual blame in your team, & accepting that you will have to grow your process & knowledge by working iteratively will ultimately lead to a better process & a happier AI team! \r
+\r
+In short, building an acceptable audit process is quite easy to do, building a robust audit process is really hard to do; & certainly cannot be done by siloed individuals in silence!""" ;
+    etd:expertId 5 ;
+    etd:hasVote etd:vote-78 ;
+    etd:questionId 20 .
+
+etd:expert-11 a etd:Expert ;
+    rdfs:label "AI Ethics Expert" ;
+    etd:area_of_expertise "AI Ethics Expert" ;
+    etd:castVote etd:vote-57 ;
+    etd:date_joined "2025-07-22T09:02:52+00:00"^^xsd:dateTime ;
+    etd:expertId 11 ;
+    etd:isDeleted false ;
+    etd:userId 12 .
+
+etd:expert-13 a etd:Expert ;
+    rdfs:label "Research" ;
+    etd:area_of_expertise "Research" ;
+    etd:bio "Postdoc at UAB" ;
+    etd:castVote etd:vote-66 ;
+    etd:date_joined "2025-07-22T09:03:05+00:00"^^xsd:dateTime ;
+    etd:expertId 13 ;
+    etd:isDeleted false ;
+    etd:profile_picture "imgs/experts/13.jpeg" ;
+    etd:userId 14 .
+
+etd:expert-22 a etd:Expert ;
+    rdfs:label "Research" ;
+    etd:area_of_expertise "Research" ;
+    etd:castVote etd:vote-54 ;
+    etd:date_joined "2025-07-22T09:03:27+00:00"^^xsd:dateTime ;
+    etd:expertId 22 ;
+    etd:isDeleted false ;
+    etd:userId 23 .
+
+etd:expert-25 a etd:Expert ;
+    rdfs:label "Research" ;
+    etd:area_of_expertise "Research" ;
+    etd:castVote etd:vote-55 ;
+    etd:date_joined "2025-07-22T09:03:39+00:00"^^xsd:dateTime ;
+    etd:expertId 25 ;
+    etd:isDeleted false ;
+    etd:userId 26 .
+
+etd:expert-27 a etd:Expert ;
+    rdfs:label "AI Expert" ;
+    etd:area_of_expertise "AI Expert" ;
+    etd:castVote etd:vote-56 ;
+    etd:date_joined "2025-07-22T09:03:43+00:00"^^xsd:dateTime ;
+    etd:expertId 27 ;
+    etd:isDeleted false ;
+    etd:userId 28 .
+
+etd:expert-31 a etd:Expert ;
+    rdfs:label "AI Expert" ;
+    etd:area_of_expertise "AI Expert" ;
+    etd:castVote etd:vote-59 ;
+    etd:date_joined "2025-07-22T09:03:58+00:00"^^xsd:dateTime ;
+    etd:expertId 31 ;
+    etd:isDeleted false ;
+    etd:profile_picture "imgs/experts/31.png" ;
+    etd:userId 32 .
+
+etd:expert-36 a etd:Expert ;
+    rdfs:label "Research" ;
+    etd:area_of_expertise "Research" ;
+    etd:date_joined "2025-07-22T09:04:26+00:00"^^xsd:dateTime ;
+    etd:expertId 36 ;
+    etd:isDeleted false ;
+    etd:userId 37 .
+
+etd:expert-37 a etd:Expert ;
+    rdfs:label "Research" ;
+    etd:area_of_expertise "Research" ;
+    etd:castVote etd:vote-61 ;
+    etd:date_joined "2025-07-22T09:04:34+00:00"^^xsd:dateTime ;
+    etd:expertId 37 ;
+    etd:isDeleted false ;
+    etd:userId 38 .
+
+etd:expert-38 a etd:Expert ;
+    rdfs:label "Research" ;
+    etd:area_of_expertise "Research" ;
+    etd:castVote etd:vote-60 ;
+    etd:date_joined "2025-07-22T09:04:40+00:00"^^xsd:dateTime ;
+    etd:expertId 38 ;
+    etd:isDeleted false ;
+    etd:userId 39 .
+
+etd:expert-4 a etd:Expert ;
+    rdfs:label "Citizen" ;
+    etd:area_of_expertise "Citizen" ;
+    etd:castVote etd:vote-52 ;
+    etd:date_joined "2025-07-04T09:16:59.110000+00:00"^^xsd:dateTime ;
+    etd:expertId 4 ;
+    etd:isDeleted false ;
+    etd:profile_picture "imgs/experts/4_kme0oB9.png" ;
+    etd:userId 5 .
+
+etd:expert-52 a etd:Expert ;
+    rdfs:label "Research" ;
+    etd:area_of_expertise "Research" ;
+    etd:date_joined "2025-08-04T13:42:13+00:00"^^xsd:dateTime ;
+    etd:expertId 52 ;
+    etd:isDeleted false ;
+    etd:userId 53 .
+
+etd:expert-56 a etd:Expert ;
+    rdfs:label "Research" ;
+    etd:area_of_expertise "Research" ;
+    etd:date_joined "2025-09-08T11:53:39+00:00"^^xsd:dateTime ;
+    etd:expertId 56 ;
+    etd:isDeleted false ;
+    etd:userId 57 .
+
+etd:expert-6 a etd:Expert ;
+    rdfs:label "AI Expert" ;
+    etd:area_of_expertise "AI Expert" ;
+    etd:date_joined "2025-07-22T09:01:43+00:00"^^xsd:dateTime ;
+    etd:expertId 6 ;
+    etd:isDeleted false ;
+    etd:userId 7 .
+
+etd:expert-8 a etd:Expert ;
+    rdfs:label "Research" ;
+    etd:area_of_expertise "Research" ;
+    etd:castVote etd:vote-62 ;
+    etd:date_joined "2025-07-22T09:02:41+00:00"^^xsd:dateTime ;
+    etd:expertId 8 ;
+    etd:isDeleted false ;
+    etd:userId 9 .
+
+etd:question-20 a etd:Question ;
+    rdfs:label "How do we ensure AI audits are effective and not just a checkbox exercise?" ;
+    etd:authoredBy etd:expert-49 ;
+    etd:belongsToTheme etd:theme-7 ;
+    etd:body """AI could be dangerous because:\r
+1) AI systems can have real-world impacts (e.g., biased hiring, facial recognition misuse).\r
+2) Flawed audits may overlook systemic issues like discrimination, data leakage, or poor model explainability.\r
+\r
+What I am asking to explore is:\r
+A) How to build robust auditing processes (technical and ethical).\r
+B) Who should conduct audits (internal teams? external bodies? community orgs?).\r
+C) How to institutionalize ethical review so it’s part of the product lifecycle, not an afterthought.\r
+D) How to ensure accountability when audit findings are ignored or covered up""" ;
+    etd:created_at "2025-07-23T11:44:00.292000+00:00"^^xsd:dateTime ;
+    etd:expertId 49 ;
+    etd:questionId 20 ;
+    etd:themeId 7 ;
+    etd:title "How do we ensure AI audits are effective and not just a checkbox exercise?" ;
+    etd:views 45 .
+
+etd:theme-12 a etd:Theme ;
+    rdfs:label "Technology: Facial Recognition Bias" ;
+    etd:authoredBy etd:expert-5 ;
+    etd:created_at "2025-07-21T00:12:41+00:00"^^xsd:dateTime ;
+    etd:description """**Domain**: Computer Vision/Biometrics  \r
+**Description**: Joy Buolamwini (MIT) and Timnit Gebru's Gender Shades project exposed severe intersectional bias in commercial facial recognition systems, demonstrating these systems performed 32 times worse on dark-skinned women compared to light-skinned men.\r
+\r
+**Ethical Challenges**:\r
+\r
+* **Intersectional Bias**: Error rates varied dramatically: 0.8% for light-skinned men vs. up to 34.7% for dark-skinned women  \r
+* **Data Representation**: Training datasets with 83.5% white individuals  \r
+* **Civil Rights Impact**: Use in surveillance and law enforcement applications  \r
+* **Platform Governance**: Led to policy changes at major tech companies\r
+\r
+**Public Datasets**:\r
+\r
+* **Primary**: Pilot Parliaments Benchmark (PPB)  \r
+* **Source**: Algorithmic Justice League  \r
+* **URL**: Contact datasets@ajlunited.org for access  \r
+* **MIT Media Lab**: https://www.media.mit.edu/projects/gender-shades/faq/  \r
+* **Research Paper**: https://www.media.mit.edu/publications/gender-shades-intersectional-accuracy-disparities-in-commercial-gender-classification/  \r
+* **Content**: 1,270 unique individuals from 6 countries (3 African, 3 European)  \r
+* **Features**: Balanced representation, 44.39% women, 47% dark-skin representation  \r
+* **Labels**: Fitzpatrick Skin Type classification and gender annotations""" ;
+    etd:domain_category "Social" ;
+    etd:expertId 5 ;
+    etd:model_category "Machine Vision" ;
+    etd:name "Technology: Facial Recognition Bias" ;
+    etd:problem_category "AI BIAS" ;
+    etd:themeId 12 ;
+    etd:views 0 .
+
+etd:theme-14 a etd:Theme ;
+    rdfs:label "Social Media: Content Moderation Bias" ;
+    etd:authoredBy etd:expert-5 ;
+    etd:created_at "2025-07-21T00:14:09+00:00"^^xsd:dateTime ;
+    etd:description """**Domain**: Social Media/Content Moderation  \r
+**Description**: Automated content moderation systems on major platforms show systematic bias in flagging and removing content, disproportionately affecting marginalized communities and non-English content.\r
+\r
+**Ethical Challenges**:\r
+\r
+* **Cultural Bias**: Western-centric training data leading to misclassification of cultural content  \r
+* **Language Bias**: Lower accuracy for non-English content and code-switching  \r
+* **Political Bias**: Inconsistent enforcement across political spectrum  \r
+* **Context Insensitivity**: Inability to understand cultural or historical context\r
+\r
+**Public Datasets**:\r
+\r
+* **HatEval Dataset**: Multilingual detection of hate speech against immigrants and women  \r
+* **URL**: https://competitions.codalab.org/competitions/19935  \r
+* **OLID Dataset**: Offensive Language Identification Dataset with three-level annotation  \r
+* **URL**: https://sites.google.com/site/offensevalsharedtask/  \r
+* **Founta et al. Dataset**: 4-class hate speech detection dataset from Twitter  \r
+* **URL**: https://github.com/ENCASEH2020/hatespeech-twitter""" ;
+    etd:domain_category "Social Media" ;
+    etd:expertId 5 ;
+    etd:model_category "Machine Learning" ;
+    etd:name "Social Media: Content Moderation Bias" ;
+    etd:problem_category "AI BIAS" ;
+    etd:themeId 14 ;
+    etd:views 0 .
+
+etd:theme-6 a etd:Theme ;
+    rdfs:label "Criminal Justice: COMPAS Recidivism Prediction" ;
+    etd:authoredBy etd:expert-5 ;
+    etd:created_at "2025-07-20T08:34:34+00:00"^^xsd:dateTime ;
+    etd:description """**Domain**: Legal/Criminal Justice  \r
+\r
+**Description**: The COMPAS (Correctional Offender Management Profiling for Alternative Sanctions) system by Northpointe is used by U.S. courts to assess defendant recidivism probability. ProPublica's 2016 investigation revealed systematic racial bias in these predictions.\r
+\r
+**Ethical Challenges**:\r
+\r
+* **Racial Bias**: Black defendants were almost twice as likely as white defendants to be incorrectly flagged as high risk of reoffending  \r
+\r
+* **Error Rate Disparities**: 77% more likely that Black individuals would be predicted to commit future violent crimes  \r
+\r
+* **Algorithmic Transparency**: Proprietary algorithm used in sentencing decisions without transparency  \r
+\r
+* **Historical Bias Perpetuation**: Reinforcement of existing disparities in the criminal justice system\r
+\r
+**Public Datasets**:\r
+\r
+* **Primary**: COMPAS Recidivism Dataset \\- ProPublica GitHub Repository  \r
+\r
+* **URL**: https://github.com/propublica/compas-analysis  \r
+\r
+* **Direct Data**: https://www.propublica.org/datastore/dataset/compas-recidivism-risk-score-data-and-analysis  \r
+\r
+* **Content**: 10,000+ individuals from Broward County, Florida (2013-2014) including criminal history, demographics, COMPAS scores, and two-year recidivism outcomes  \r
+\r
+* **File**: `compas-scores-two-years.csv` with complete analysis code  \r
+\r
+* **R Package**: Available via mlr3fairness package \\- https://mlr3fairness.mlr-org.com/reference/compas.html""" ;
+    etd:domain_category "Justice" ;
+    etd:expertId 5 ;
+    etd:model_category "Machine Learning" ;
+    etd:name "Criminal Justice: COMPAS Recidivism Prediction" ;
+    etd:problem_category "AI BIAS" ;
+    etd:themeId 6 ;
+    etd:views 0 .
+
+etd:theme-7 a etd:Theme ;
+    rdfs:label "Healthcare: Population Health Risk Algorithms" ;
+    etd:authoredBy etd:expert-5 ;
+    etd:created_at "2025-07-20T08:37:35+00:00"^^xsd:dateTime ;
+    etd:description """**Domain**: Healthcare/Medical AI  \r
+**Description**: Obermeyer et al. (2019) study in Science revealed racial bias in commercial health risk algorithms affecting \\~200 million Americans annually, used to identify patients needing additional care programs.\r
+\r
+**Ethical Challenges**:\r
+\r
+* **Measurement Bias**: Algorithm used healthcare spending as proxy for health needs, but Black patients spent \\~$1,800 less annually than white patients with identical conditions  \r
+* **Disparate Impact**: Black patients were 2.6 times less likely to receive additional care despite greater medical need  \r
+* **Scale of Impact**: Affects millions of healthcare decisions  \r
+* **Proxy Problem**: Seemingly neutral metrics can incorporate systemic bias\r
+\r
+**Public Datasets**:\r
+\r
+* **Primary**: MIMIC-CXR Database (PhysioNet)  \r
+* **URL**: https://physionet.org/content/mimic-cxr/2.0.0/  \r
+* **Content**: 377,110 chest X-ray images from Beth Israel Deaconess Medical Center  \r
+* **Bias Documentation**: Documented bias in medical image classifiers by race, sex, age, and insurance type  \r
+* **Access**: Requires credentials but publicly available for research""" ;
+    etd:domain_category "Health" ;
+    etd:expertId 5 ;
+    etd:model_category "Machine Learning" ;
+    etd:name "Healthcare: Population Health Risk Algorithms" ;
+    etd:problem_category "AI BIAS" ;
+    etd:themeId 7 ;
+    etd:views 0 .
+
+etd:theme-8 a etd:Theme ;
+    rdfs:label "Medical Imaging: Diagnostic Algorithm Bias" ;
+    etd:authoredBy etd:expert-5 ;
+    etd:created_at "2025-07-20T08:41:45+00:00"^^xsd:dateTime ;
+    etd:description """**Domain**: Healthcare/Radiology  \r
+**Description**: MIT studies reveal why AI models that analyze medical images can be biased, affecting diagnostic accuracy across demographic groups.\r
+\r
+**Ethical Challenges**:\r
+\r
+* **Demographic Bias**: Diagnostic algorithms show varying performance across racial and gender groups  \r
+* **Training Data Imbalances**: Underrepresentation of certain demographic groups in training datasets  \r
+* **Clinical Decision Impact**: Biased diagnostic tools can lead to misdiagnosis or delayed treatment  \r
+* **Healthcare Equity**: Perpetuation of existing healthcare disparities\r
+\r
+**Public Datasets**:\r
+\r
+* **NIH Chest X-ray Dataset**: 112,120 frontal-view X-ray images from 30,805 unique patients  \r
+* **URL**: https://www.nih.gov/news-events/news-releases/nih-clinical-center-provides-one-largest-publicly-available-chest-x-ray-datasets-scientific-community  \r
+* **CheXpert Dataset**: Stanford's large dataset of chest radiographs with labels  \r
+* **URL**: https://stanfordmlgroup.github.io/competitions/chexpert/  \r
+* **RSNA Pneumonia Detection Challenge**: Kaggle dataset with demographic annotations  \r
+* **URL**: https://www.kaggle.com/c/rsna-pneumonia-detection-challenge""" ;
+    etd:domain_category "Health" ;
+    etd:expertId 5 ;
+    etd:model_category "Machine Vision" ;
+    etd:name "Medical Imaging: Diagnostic Algorithm Bias" ;
+    etd:problem_category "AI BIAS" ;
+    etd:themeId 8 ;
+    etd:views 0 .
+
+etd:answer-12 a etd:Answer ;
+    rdfs:label "First contact from Yuan" ;
+    etd:answerId 12 ;
+    etd:answersQuestion etd:question-14 ;
+    etd:authoredBy etd:expert-6 ;
+    etd:created_at "2025-07-22T09:03:13.326000+00:00"^^xsd:dateTime ;
+    etd:description "First contact from Yuan" ;
+    etd:expertId 6 ;
+    etd:hasVote etd:vote-57 ;
+    etd:questionId 14 .
+
+etd:answer-14 a etd:Answer ;
+    rdfs:label "I recently saw an interesting conference contribution that addressed the perform" ;
+    etd:answerId 14 ;
+    etd:answersQuestion etd:question-17 ;
+    etd:authoredBy etd:expert-19 ;
+    etd:created_at "2025-07-22T14:10:18.822000+00:00"^^xsd:dateTime ;
+    etd:description """I recently saw an interesting conference contribution that addressed the performativity of predictions. It might be interesting to have a look, even thought it might not address your question directly. \r
+\r
+https://proceedings.mlr.press/v294/khosrowi25a.html""" ;
+    etd:expertId 19 ;
+    etd:hasVote etd:vote-63,
+        etd:vote-69 ;
+    etd:questionId 17 .
+
+etd:answer-17 a etd:Answer ;
+    rdfs:label "I think these systems are really hard to trust because you can't make it explain" ;
+    etd:answerId 17 ;
+    etd:answersQuestion etd:question-16 ;
+    etd:authoredBy etd:expert-10 ;
+    etd:created_at "2025-07-22T14:47:25.013000+00:00"^^xsd:dateTime ;
+    etd:description """I think these systems are really hard to trust because you can't make it explainable.  \r
+An example - if you DO say something relevant to the application it can show you 'TA DAA here is where they talk about using excel' for example, but if it's trying to show you that they DON'T talk about something (like they never mention excel) you can't point at nothing!  You can't say here is the section where they DON'T talk about it. \r
+\r
+So I imagine users would have to either trust the system completely or not at all, and there's not a lot of potential for good balance between human and AI.  \r
+\r
+I hope that makes sense!""" ;
+    etd:expertId 10 ;
+    etd:hasVote etd:vote-72,
+        etd:vote-73 ;
+    etd:questionId 16 .
+
+etd:expert-49 a etd:Expert ;
+    rdfs:label "AI Expert" ;
+    etd:area_of_expertise "AI Expert" ;
+    etd:date_joined "2025-07-23T11:39:36+00:00"^^xsd:dateTime ;
+    etd:expertId 49 ;
+    etd:isDeleted false ;
+    etd:userId 50 .
+
+etd:expert-50 a etd:Expert ;
+    rdfs:label "AI Expert" ;
+    etd:area_of_expertise "AI Expert" ;
+    etd:castVote etd:vote-79,
+        etd:vote-80 ;
+    etd:date_joined "2025-07-30T12:28:49+00:00"^^xsd:dateTime ;
+    etd:expertId 50 ;
+    etd:isDeleted false ;
+    etd:userId 51 .
+
+etd:question-18 a etd:Question ;
+    rdfs:label "Inherent Bias in Image Dataset Labelling" ;
+    etd:authoredBy etd:expert-47 ;
+    etd:belongsToTheme etd:theme-12 ;
+    etd:body "To what extent do a persons own biases 'contaminate' the fairness of a dataset during the labelling process? Are such ethical issues an inherent problem - i.e. is it ever possible to separate a persons own perspectives and biases from this process?" ;
+    etd:created_at "2025-07-22T14:28:41.106000+00:00"^^xsd:dateTime ;
+    etd:expertId 47 ;
+    etd:questionId 18 ;
+    etd:themeId 12 ;
+    etd:title "Inherent Bias in Image Dataset Labelling" ;
+    etd:views 72 .
+
+etd:vote-52 a etd:Vote ;
+    etd:answerId 11 ;
+    etd:castBy etd:expert-4 ;
+    etd:created_at "2025-07-21T16:49:39.950000+00:00"^^xsd:dateTime ;
+    etd:expertId 4 ;
+    etd:receivesVote etd:answer-11 ;
+    etd:updated_at "2025-07-21T16:49:40.084000+00:00"^^xsd:dateTime ;
+    etd:voteId 52 ;
+    etd:vote_value 1 .
+
+etd:vote-54 a etd:Vote ;
+    etd:answerId 11 ;
+    etd:castBy etd:expert-22 ;
+    etd:created_at "2025-07-22T09:03:49.180000+00:00"^^xsd:dateTime ;
+    etd:expertId 22 ;
+    etd:receivesVote etd:answer-11 ;
+    etd:updated_at "2025-07-22T09:03:49.196000+00:00"^^xsd:dateTime ;
+    etd:voteId 54 ;
+    etd:vote_value 1 .
+
+etd:vote-55 a etd:Vote ;
+    etd:answerId 11 ;
+    etd:castBy etd:expert-25 ;
+    etd:created_at "2025-07-22T09:03:57.284000+00:00"^^xsd:dateTime ;
+    etd:expertId 25 ;
+    etd:receivesVote etd:answer-11 ;
+    etd:updated_at "2025-07-22T09:04:00.356000+00:00"^^xsd:dateTime ;
+    etd:voteId 55 ;
+    etd:vote_value 1 .
+
+etd:vote-56 a etd:Vote ;
+    etd:answerId 11 ;
+    etd:castBy etd:expert-27 ;
+    etd:created_at "2025-07-22T09:04:25.159000+00:00"^^xsd:dateTime ;
+    etd:expertId 27 ;
+    etd:receivesVote etd:answer-11 ;
+    etd:updated_at "2025-07-22T09:04:25.160000+00:00"^^xsd:dateTime ;
+    etd:voteId 56 ;
+    etd:vote_value 1 .
+
+etd:vote-57 a etd:Vote ;
+    etd:answerId 12 ;
+    etd:castBy etd:expert-11 ;
+    etd:created_at "2025-07-22T09:05:23.982000+00:00"^^xsd:dateTime ;
+    etd:expertId 11 ;
+    etd:receivesVote etd:answer-12 ;
+    etd:updated_at "2025-07-22T09:05:23.991000+00:00"^^xsd:dateTime ;
+    etd:voteId 57 ;
+    etd:vote_value 1 .
+
+etd:vote-59 a etd:Vote ;
+    etd:answerId 11 ;
+    etd:castBy etd:expert-31 ;
+    etd:created_at "2025-07-22T09:05:30.853000+00:00"^^xsd:dateTime ;
+    etd:expertId 31 ;
+    etd:receivesVote etd:answer-11 ;
+    etd:updated_at "2025-07-22T09:05:30.853000+00:00"^^xsd:dateTime ;
+    etd:voteId 59 ;
+    etd:vote_value 1 .
+
+etd:vote-60 a etd:Vote ;
+    etd:answerId 11 ;
+    etd:castBy etd:expert-38 ;
+    etd:created_at "2025-07-22T09:05:52.201000+00:00"^^xsd:dateTime ;
+    etd:expertId 38 ;
+    etd:receivesVote etd:answer-11 ;
+    etd:updated_at "2025-07-22T09:05:52.292000+00:00"^^xsd:dateTime ;
+    etd:voteId 60 ;
+    etd:vote_value 1 .
+
+etd:vote-61 a etd:Vote ;
+    etd:answerId 11 ;
+    etd:castBy etd:expert-37 ;
+    etd:created_at "2025-07-22T09:06:17.719000+00:00"^^xsd:dateTime ;
+    etd:expertId 37 ;
+    etd:receivesVote etd:answer-11 ;
+    etd:updated_at "2025-07-22T09:06:17.840000+00:00"^^xsd:dateTime ;
+    etd:voteId 61 ;
+    etd:vote_value 1 .
+
+etd:vote-62 a etd:Vote ;
+    etd:answerId 11 ;
+    etd:castBy etd:expert-8 ;
+    etd:created_at "2025-07-22T09:06:34.506000+00:00"^^xsd:dateTime ;
+    etd:expertId 8 ;
+    etd:receivesVote etd:answer-11 ;
+    etd:updated_at "2025-07-22T09:06:34.506000+00:00"^^xsd:dateTime ;
+    etd:voteId 62 ;
+    etd:vote_value 1 .
+
+etd:vote-63 a etd:Vote ;
+    etd:answerId 14 ;
+    etd:castBy etd:expert-5 ;
+    etd:created_at "2025-07-22T14:14:11.726000+00:00"^^xsd:dateTime ;
+    etd:expertId 5 ;
+    etd:receivesVote etd:answer-14 ;
+    etd:updated_at "2025-07-22T14:14:11.894000+00:00"^^xsd:dateTime ;
+    etd:voteId 63 ;
+    etd:vote_value 1 .
+
+etd:vote-64 a etd:Vote ;
+    etd:answerId 13 ;
+    etd:castBy etd:expert-5 ;
+    etd:created_at "2025-07-22T14:15:05.013000+00:00"^^xsd:dateTime ;
+    etd:expertId 5 ;
+    etd:receivesVote etd:answer-13 ;
+    etd:updated_at "2025-07-22T14:15:06.963000+00:00"^^xsd:dateTime ;
+    etd:voteId 64 ;
+    etd:vote_value 1 .
+
+etd:vote-65 a etd:Vote ;
+    etd:answerId 15 ;
+    etd:castBy etd:expert-47 ;
+    etd:created_at "2025-07-22T14:38:33.684000+00:00"^^xsd:dateTime ;
+    etd:expertId 47 ;
+    etd:receivesVote etd:answer-15 ;
+    etd:updated_at "2025-07-22T14:38:33.830000+00:00"^^xsd:dateTime ;
+    etd:voteId 65 ;
+    etd:vote_value 1 .
+
+etd:vote-66 a etd:Vote ;
+    etd:answerId 13 ;
+    etd:castBy etd:expert-13 ;
+    etd:created_at "2025-07-22T14:47:18.639000+00:00"^^xsd:dateTime ;
+    etd:expertId 13 ;
+    etd:receivesVote etd:answer-13 ;
+    etd:updated_at "2025-07-22T14:47:18.640000+00:00"^^xsd:dateTime ;
+    etd:voteId 66 ;
+    etd:vote_value 1 .
+
+etd:vote-67 a etd:Vote ;
+    etd:answerId 13 ;
+    etd:castBy etd:expert-47 ;
+    etd:created_at "2025-07-22T14:47:19.798000+00:00"^^xsd:dateTime ;
+    etd:expertId 47 ;
+    etd:receivesVote etd:answer-13 ;
+    etd:updated_at "2025-07-22T14:47:19.934000+00:00"^^xsd:dateTime ;
+    etd:voteId 67 ;
+    etd:vote_value 1 .
+
+etd:vote-68 a etd:Vote ;
+    etd:answerId 15 ;
+    etd:castBy etd:expert-10 ;
+    etd:created_at "2025-07-22T14:48:15.091000+00:00"^^xsd:dateTime ;
+    etd:expertId 10 ;
+    etd:receivesVote etd:answer-15 ;
+    etd:updated_at "2025-07-22T14:48:15.092000+00:00"^^xsd:dateTime ;
+    etd:voteId 68 ;
+    etd:vote_value 1 .
+
+etd:vote-69 a etd:Vote ;
+    etd:answerId 14 ;
+    etd:castBy etd:expert-47 ;
+    etd:created_at "2025-07-22T14:52:32.983000+00:00"^^xsd:dateTime ;
+    etd:expertId 47 ;
+    etd:receivesVote etd:answer-14 ;
+    etd:updated_at "2025-07-22T14:52:33.124000+00:00"^^xsd:dateTime ;
+    etd:voteId 69 ;
+    etd:vote_value 1 .
+
+etd:vote-70 a etd:Vote ;
+    etd:answerId 16 ;
+    etd:castBy etd:expert-47 ;
+    etd:created_at "2025-07-22T14:52:36.523000+00:00"^^xsd:dateTime ;
+    etd:expertId 47 ;
+    etd:receivesVote etd:answer-16 ;
+    etd:updated_at "2025-07-22T14:52:36.545000+00:00"^^xsd:dateTime ;
+    etd:voteId 70 ;
+    etd:vote_value 1 .
+
+etd:vote-71 a etd:Vote ;
+    etd:answerId 16 ;
+    etd:castBy etd:expert-5 ;
+    etd:created_at "2025-07-22T17:21:32.873000+00:00"^^xsd:dateTime ;
+    etd:expertId 5 ;
+    etd:receivesVote etd:answer-16 ;
+    etd:updated_at "2025-07-22T17:21:33.044000+00:00"^^xsd:dateTime ;
+    etd:voteId 71 ;
+    etd:vote_value 1 .
+
+etd:vote-72 a etd:Vote ;
+    etd:answerId 17 ;
+    etd:castBy etd:expert-5 ;
+    etd:created_at "2025-07-22T17:27:26.474000+00:00"^^xsd:dateTime ;
+    etd:expertId 5 ;
+    etd:receivesVote etd:answer-17 ;
+    etd:updated_at "2025-07-22T17:27:26.660000+00:00"^^xsd:dateTime ;
+    etd:voteId 72 ;
+    etd:vote_value 1 .
+
+etd:vote-73 a etd:Vote ;
+    etd:answerId 17 ;
+    etd:castBy etd:expert-47 ;
+    etd:created_at "2025-07-22T17:39:04.078000+00:00"^^xsd:dateTime ;
+    etd:expertId 47 ;
+    etd:receivesVote etd:answer-17 ;
+    etd:updated_at "2025-07-22T17:39:04.226000+00:00"^^xsd:dateTime ;
+    etd:voteId 73 ;
+    etd:vote_value 1 .
+
+etd:vote-74 a etd:Vote ;
+    etd:answerId 23 ;
+    etd:castBy etd:expert-5 ;
+    etd:created_at "2025-07-23T07:45:19.551000+00:00"^^xsd:dateTime ;
+    etd:expertId 5 ;
+    etd:receivesVote etd:answer-23 ;
+    etd:updated_at "2025-07-23T07:45:19.683000+00:00"^^xsd:dateTime ;
+    etd:voteId 74 ;
+    etd:vote_value 1 .
+
+etd:vote-75 a etd:Vote ;
+    etd:answerId 16 ;
+    etd:castBy etd:expert-2 ;
+    etd:created_at "2025-07-23T10:34:31.796000+00:00"^^xsd:dateTime ;
+    etd:expertId 2 ;
+    etd:receivesVote etd:answer-16 ;
+    etd:updated_at "2025-07-23T10:34:31.965000+00:00"^^xsd:dateTime ;
+    etd:voteId 75 ;
+    etd:vote_value 1 .
+
+etd:vote-77 a etd:Vote ;
+    etd:answerId 24 ;
+    etd:castBy etd:expert-2 ;
+    etd:created_at "2025-07-23T10:51:31.278000+00:00"^^xsd:dateTime ;
+    etd:expertId 2 ;
+    etd:receivesVote etd:answer-24 ;
+    etd:updated_at "2025-07-23T10:51:31.304000+00:00"^^xsd:dateTime ;
+    etd:voteId 77 ;
+    etd:vote_value 1 .
+
+etd:vote-78 a etd:Vote ;
+    etd:answerId 29 ;
+    etd:castBy etd:expert-19 ;
+    etd:created_at "2025-07-24T14:46:11.168000+00:00"^^xsd:dateTime ;
+    etd:expertId 19 ;
+    etd:receivesVote etd:answer-29 ;
+    etd:updated_at "2025-07-24T14:46:11.273000+00:00"^^xsd:dateTime ;
+    etd:voteId 78 ;
+    etd:vote_value 1 .
+
+etd:vote-79 a etd:Vote ;
+    etd:answerId 11 ;
+    etd:castBy etd:expert-50 ;
+    etd:created_at "2025-08-04T10:25:16.432000+00:00"^^xsd:dateTime ;
+    etd:expertId 50 ;
+    etd:receivesVote etd:answer-11 ;
+    etd:updated_at "2025-08-04T10:25:16.447000+00:00"^^xsd:dateTime ;
+    etd:voteId 79 ;
+    etd:vote_value 1 .
+
+etd:vote-80 a etd:Vote ;
+    etd:answerId 15 ;
+    etd:castBy etd:expert-50 ;
+    etd:created_at "2025-08-04T10:27:20.348000+00:00"^^xsd:dateTime ;
+    etd:expertId 50 ;
+    etd:receivesVote etd:answer-15 ;
+    etd:updated_at "2025-08-04T10:27:20.365000+00:00"^^xsd:dateTime ;
+    etd:voteId 80 ;
+    etd:vote_value 1 .
+
+etd:answer-13 a etd:Answer ;
+    rdfs:label "Automation bias - how to avoid a situation in which recruiters over-rely on the" ;
+    etd:answerId 13 ;
+    etd:answersQuestion etd:question-16 ;
+    etd:authoredBy etd:expert-19 ;
+    etd:created_at "2025-07-22T10:04:53.540000+00:00"^^xsd:dateTime ;
+    etd:description """Automation bias - how to avoid a situation in which recruiters over-rely on the outputs of such systems? How do we ensure that their autonomy to make decisions is not affected? \r
+\r
+For example the Assessment List for Trustworthy AI asks "Could the AI system affect human autonomy by generating over-reliance by end-users?" ? \r
+\r
+How do we make sure that the decision made by the system are understandable and explainable to the applicants and recruiters?""" ;
+    etd:expertId 19 ;
+    etd:hasVote etd:vote-64,
+        etd:vote-66,
+        etd:vote-67 ;
+    etd:questionId 16 .
+
+etd:answer-15 a etd:Answer ;
+    rdfs:label "Kate Crawford and Trevor Paglen, “Excavating AI: The Politics of Training Sets f" ;
+    etd:answerId 15 ;
+    etd:answersQuestion etd:question-18 ;
+    etd:authoredBy etd:expert-19 ;
+    etd:created_at "2025-07-22T14:29:49.437000+00:00"^^xsd:dateTime ;
+    etd:description "Kate Crawford and Trevor Paglen, “Excavating AI: The Politics of Training Sets for Machine Learning (September 19, 2019) https://excavating.ai" ;
+    etd:expertId 19 ;
+    etd:hasVote etd:vote-65,
+        etd:vote-68,
+        etd:vote-80 ;
+    etd:questionId 18 .
+
+etd:answer-24 a etd:Answer ;
+    rdfs:label "I think it probably can be ethically justifiable to use AI to predict job perfor" ;
+    etd:answerId 24 ;
+    etd:answersQuestion etd:question-17 ;
+    etd:authoredBy etd:expert-5 ;
+    etd:created_at "2025-07-23T09:24:47.573000+00:00"^^xsd:dateTime ;
+    etd:description """I think it probably can be ethically justifiable to use AI to predict job performance if we use a definition of 'ethical' which means compliance with regulatory ethical frameworks, but only under very specific, carefully controlled circumstances. I also think the ethics of doing something like this vary based on who is using it as well: I will explain.\r
+\r
+Speaking hypothetically, if this was going to be used by an *employer* I think the application would need to meet all of these criteria. I'm not an expert, but off the rip I think:\r
+\r
+- No protected characteristics are used (e.g., race, gender, age, religion, disability).\r
+- The model is transparent, explainable, and auditable (hard to decide thresholds).\r
+- The predictions are used in conjunction with human judgment (how to achieve?).\r
+- The AI is trained on relevant, validated indicators of performance (what could these be?).\r
+- No proxies that may encode bias (e.g., zip code for socioeconomic status).\r
+- There are fairness algorithms in place to mitigate disparate impact (look at classification resources on this site).\r
+\r
+I think when you applied all of these things, you would have something that is fair by the book, but who knows if it could predict performance very well. And how would you even quantify performance? Categories, some kind of numerical value etc? So, maybe doable in compliance with regulation, but the practical value is debatable and the extent of how ethical this is in a more pure sense is still highly debatable. I think this makes it a much more interesting project to work on and discuss!\r
+\r
+Another thing to think about is what if this tool could be used by people *applying* for a job to predict their own performance. In this case, depending on model performance when certain data is added or not (hard to measure model performance anyway because would need a lot of data on outcomes for users advised in either direction) maybe you would include otherwise excluded data in training the model because you would want the best possible projection? Of course, the issue of how you quantify good/bad suitability is still difficult, but I could see this having an interesting utility - helping people avoid jobs where they may be overworked, mistreated, unhappy etc. Of course, if you built this kind of model who is to say that employers wouldn't begin using it even if it isn't intended for them.\r
+\r
+This has been a long answer but in short I think, basically, that you can do this 'ethically' from the perspective of what the rules are, but more philosophically I don't know if it can be ethical. This is an interesting debate and question, and I think a really cool project this week would make this kind of model and also get into the weeds of is it ethical, is it not, how do we decide etc? It sounds like you might be doing this, and if so I am very much looking forward to your presentation on friday!""" ;
+    etd:expertId 5 ;
+    etd:hasVote etd:vote-77 ;
+    etd:questionId 17 .
+
+etd:expert-2 a etd:Expert ;
+    rdfs:label "Research" ;
+    etd:area_of_expertise "Research" ;
+    etd:castVote etd:vote-75,
+        etd:vote-77 ;
+    etd:date_joined "2025-06-26T20:26:54+00:00"^^xsd:dateTime ;
+    etd:expertId 2 ;
+    etd:isDeleted false ;
+    etd:profile_picture "imgs/experts/2_AW6tIQP.jpg" ;
+    etd:userId 3 .
+
+etd:question-16 a etd:Question ;
+    rdfs:label "What are the ethical issues of matching algorithms?" ;
+    etd:authoredBy etd:expert-36 ;
+    etd:belongsToTheme etd:theme-10 ;
+    etd:body "In recruitment, algorithms are used to do the parsing of resumes, and to score the matching with a job offer. What are the ethical issues I need to take care of ?" ;
+    etd:created_at "2025-07-22T09:06:35.425000+00:00"^^xsd:dateTime ;
+    etd:expertId 36 ;
+    etd:questionId 16 ;
+    etd:themeId 10 ;
+    etd:title "What are the ethical issues of matching algorithms?" ;
+    etd:views 88 .
+
+etd:question-22 a etd:Question ;
+    rdfs:label "Ethics of Content Moderation" ;
+    etd:authoredBy etd:expert-19 ;
+    etd:belongsToTheme etd:theme-14 ;
+    etd:body """I am sharing some hopefully relevant sources for thinking about ethical issues related to social media content moderation that go beyond just algorithmic bias. \r
+\r
+Ozanne, M., Bhandari, A., Bazarova, N. N., & DiFranzo, D. (2022). Shall AI moderators be made visible? Perception of accountability and trust in moderation systems on social media platforms. Big Data & Society, 9(2). https://doi.org/10.1177/20539517221115666 (Original work published 2022)\r
+\r
+Trujillo, A., Fagni, T., & Cresci, S. (2025). The DSA Transparency Database: Auditing Self-reported Moderation Actions by Social Media. https://doi.org/10.1145/3711085\r
+\r
+\r
+I will update later with more.""" ;
+    etd:created_at "2025-07-23T11:51:56.665000+00:00"^^xsd:dateTime ;
+    etd:expertId 19 ;
+    etd:questionId 22 ;
+    etd:themeId 14 ;
+    etd:title "Ethics of Content Moderation" ;
+    etd:views 50 .
+
+etd:theme-10 a etd:Theme ;
+    rdfs:label "Human Resources: AI Recruitment Systems" ;
+    etd:authoredBy etd:expert-5 ;
+    etd:created_at "2025-07-21T00:06:41+00:00"^^xsd:dateTime ;
+    etd:description """**Domain**: Human Resources/Employment  \r
+**Description**: Amazon developed an AI recruitment tool (2014-2017) that systematically discriminated against women, leading to its termination. Recent University of Washington studies (2024) found similar bias in LLMs for resume screening.\r
+\r
+**Ethical Challenges**:\r
+\r
+* **Gender Bias**: Amazon's system penalized resumes containing words like "women's" and downgraded graduates from women's colleges  \r
+* **Intersectional Bias**: UW study found names associated with Black women were never favored over white men  \r
+* **Historical Inequality Perpetuation**: AI trained on historical workforce data predominantly male  \r
+* **Disparate Impact Discrimination**: Under Title VII violations\r
+\r
+**Public Datasets**:\r
+\r
+* **Primary**: Adult/Census Income Dataset \\- UCI Machine Learning Repository  \r
+* **URL**: https://archive.ics.uci.edu/dataset/20/census+income  \r
+* **MIT Case Study**: https://ocw.mit.edu/courses/res-ec-001-exploring-fairness-in-machine-learning-for-international-development-spring-2020/pages/module-four-case-studies/case-study-mitigating-gender-bias/  \r
+* **Content**: 48,842 records of census data for predicting income \\>$50K/year with 13 features  \r
+* **Bias Use**: Widely used for studying bias in income prediction across demographic groups  \r
+* **Additional Platforms**: Available on fairness toolkits \\- https://fairmlbook.org/datasets.html""" ;
+    etd:domain_category "Social" ;
+    etd:expertId 5 ;
+    etd:model_category "LLM" ;
+    etd:name "Human Resources: AI Recruitment Systems" ;
+    etd:problem_category "AI BIAS" ;
+    etd:themeId 10 ;
+    etd:views 0 .
+
+etd:answer-16 a etd:Answer ;
+    rdfs:label "In reply to Agavornik (the reply button isn't working): That is interesting, and" ;
+    etd:answerId 16 ;
+    etd:answersQuestion etd:question-17 ;
+    etd:authoredBy etd:expert-10 ;
+    etd:created_at "2025-07-22T14:43:23.020000+00:00"^^xsd:dateTime ;
+    etd:description "In reply to Agavornik (the reply button isn't working): That is interesting, and very relevant to my own research in clinical risk prediction.  I'm not sure if it is relevant to this problem though? As the prediction would influence whether or not you were hired, and if you're not hired you can't quit? I feel like that's subtly different to whether or not the prediction makes you quit?" ;
+    etd:expertId 10 ;
+    etd:hasVote etd:vote-70,
+        etd:vote-71,
+        etd:vote-75 ;
+    etd:questionId 17 .
+
+etd:question-14 a etd:Question ;
+    rdfs:label "Example Question" ;
+    etd:authoredBy etd:expert-5 ;
+    etd:belongsToTheme etd:theme-6 ;
+    etd:body "Can a predictive system used in life-altering decisions ever be considered 'fair' if its inner workings are proprietary and its outcomes show systemic racial disparities, even when trained on 'real-world' data?" ;
+    etd:created_at "2025-07-21T00:23:20.272000+00:00"^^xsd:dateTime ;
+    etd:expertId 5 ;
+    etd:questionId 14 ;
+    etd:themeId 6 ;
+    etd:title "Example Question" ;
+    etd:views 123 .
+
+etd:expert-19 a etd:Expert ;
+    rdfs:label "AI Ethics Expert" ;
+    etd:area_of_expertise "AI Ethics Expert" ;
+    etd:castVote etd:vote-78 ;
+    etd:date_joined "2025-07-22T09:03:19+00:00"^^xsd:dateTime ;
+    etd:expertId 19 ;
+    etd:isDeleted false ;
+    etd:userId 20 .
+
+etd:expert-47 a etd:Expert ;
+    rdfs:label "Citizen" ;
+    etd:area_of_expertise "Citizen" ;
+    etd:bio "A concept is a brick." ;
+    etd:castVote etd:vote-65,
+        etd:vote-67,
+        etd:vote-69,
+        etd:vote-70,
+        etd:vote-73 ;
+    etd:date_joined "2025-07-22T10:09:38+00:00"^^xsd:dateTime ;
+    etd:expertId 47 ;
+    etd:isDeleted false ;
+    etd:profile_picture "imgs/experts/47.jpg" ;
+    etd:userId 48 .
+
+etd:question-17 a etd:Question ;
+    rdfs:label "Classification models for suitability for a job: Is there really any way to justify it?" ;
+    etd:authoredBy etd:expert-10 ;
+    etd:belongsToTheme etd:theme-10 ;
+    etd:body """It's *hypothetically possible* to train an AI model to predict the job performance and productivity of a job candidate by comparing some of their characteristics to a dataset of current or past employees. \r
+\r
+Can you think of any circumstances in which this is ethically justifiable?  \r
+\r
+For example, if the only features used to make the prediction were things like whether they smoke, how much coffee they drink... no protected characteristics... does that make it okay?  Or is the act of comparing an individual to others (through AI or just from personal opinion) inherently unethical?\r
+\r
+Would love to know your thoughts!!!  \r
+\r
+Also, I worry about this from the perspective of a lecturer - sometimes we might 'predict' that some students will struggle more with certain elements of the course and proactively reach out to them.  The intention is to be helpful, but is this actually causing more harm than good?""" ;
+    etd:created_at "2025-07-22T11:54:23.005000+00:00"^^xsd:dateTime ;
+    etd:expertId 10 ;
+    etd:questionId 17 ;
+    etd:themeId 10 ;
+    etd:title "Classification models for suitability for a job: Is there really any way to justify it?" ;
+    etd:views 118 .
+
+etd:expert-10 a etd:Expert ;
+    rdfs:label "Research" ;
+    etd:area_of_expertise "Research" ;
+    etd:bio "Data scientist and epidemiologist from the University of Edinburgh.  Research on using routinely collected health data efficiently and fairly to inform health policy in asthma." ;
+    etd:castVote etd:vote-68 ;
+    etd:date_joined "2025-07-22T09:02:48+00:00"^^xsd:dateTime ;
+    etd:expertId 10 ;
+    etd:isDeleted false ;
+    etd:profile_picture "imgs/experts/10.jpg" ;
+    etd:userId 11 .
+
+etd:answer-11 a etd:Answer ;
+    rdfs:label "A predictive system like COMPAS cannot truly be considered fair if it lacks tran" ;
+    etd:answerId 11 ;
+    etd:answersQuestion etd:question-14 ;
+    etd:authoredBy etd:expert-5 ;
+    etd:created_at "2025-07-21T00:25:14.275000+00:00"^^xsd:dateTime ;
+    etd:description """A predictive system like COMPAS cannot truly be considered fair if it lacks transparency and exhibits systemic racial disparities; even if trained on “real-world” data. Fairness in algorithmic decision-making, especially in high-stakes domains like criminal justice, goes beyond technical accuracy; it requires accountability, interpretability, and equity in outcomes.\r
+\r
+ProPublica’s 2016 investigation into COMPAS found that Black defendants were twice as likely as white defendants to be falsely labeled high-risk. Northpointe (now Equivant) contested this, arguing that the system maintained overall accuracy parity. This disagreement highlights a critical issue in the field: fairness criteria often conflict. As noted by Kleinberg et al. (2016), you cannot simultaneously satisfy predictive parity, equal false positive rates, and calibration across groups when base rates differ, as they often do in racially stratified societies.\r
+\r
+Moreover, the use of proprietary, black-box algorithms in sentencing decisions raises serious concerns about due process. Defendants, lawyers, and judges cannot meaningfully challenge or understand a system that lacks algorithmic transparency. This undermines legal principles such as the right to contest evidence and equal protection under the law.\r
+\r
+Training on “real-world” data is no guarantee of fairness either. Historical data from the criminal justice system reflects decades of systemic bias, from over-policing in Black communities to harsher sentencing for similar offenses. Algorithms trained on this data risk codifying and perpetuating these inequities (Barocas & Selbst, 2016).\r
+\r
+References: \r
+ProPublica (2016). Machine Bias – https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing\r
+\r
+Kleinberg, Mullainathan, & Raghavan (2016). Inherent Trade-Offs in the Fair Determination of Risk Scores\r
+\r
+Barocas & Selbst (2016). Big Data's Disparate Impact, California Law Review""" ;
+    etd:expertId 5 ;
+    etd:hasVote etd:vote-52,
+        etd:vote-54,
+        etd:vote-55,
+        etd:vote-56,
+        etd:vote-59,
+        etd:vote-60,
+        etd:vote-61,
+        etd:vote-62,
+        etd:vote-79 ;
+    etd:questionId 14 .
+
+etd:expert-5 a etd:Expert ;
+    rdfs:label "Enterprise" ;
+    etd:area_of_expertise "Enterprise" ;
+    etd:bio "Lead Project Manager @ Distributed Analytics | Building ethical, impactful AI solutions" ;
+    etd:castVote etd:vote-63,
+        etd:vote-64,
+        etd:vote-71,
+        etd:vote-72,
+        etd:vote-74 ;
+    etd:date_joined "2025-07-12T18:57:30.472000+00:00"^^xsd:dateTime ;
+    etd:expertId 5 ;
+    etd:isDeleted false ;
+    etd:profile_picture "imgs/experts/5.png" ;
+    etd:userId 6 .
+

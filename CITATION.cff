@@ -1,0 +1,34 @@
+cff-version: 1.2.0
+message: "If you use this software or the TQAVE-KG knowledge graph, please cite the paper below."
+title: "TQAVE-KG: Provenance-Aware Knowledge Graph Construction from Expert-Contributed Q&A Discourse"
+authors:
+  - family-names: "Uwasomba"
+    given-names: "Chukwudi"
+    orcid: "https://orcid.org/0000-0002-6572-2835"
+    affiliation: "Edge Hill University"
+  - family-names: "Nnamoko"
+    given-names: "Nonso"
+    orcid: "https://orcid.org/0000-0002-5064-2621"
+    affiliation: "Edge Hill University"
+  - family-names: "Korkontzelos"
+    given-names: "Ioannis"
+    orcid: "https://orcid.org/0000-0001-8052-2471"
+    affiliation: "Edge Hill University"
+license: MIT
+repository-code: "https://github.com/cfestus/TQAVE-KG"
+preferred-citation:
+  type: unpublished
+  title: "TQAVE-KG: Provenance-Aware Knowledge Graph Construction from Expert-Contributed Q&A Discourse"
+  authors:
+    - family-names: "Uwasomba"
+      given-names: "Chukwudi"
+      orcid: "https://orcid.org/0000-0002-6572-2835"
+      affiliation: "Edge Hill University"
+    - family-names: "Nnamoko"
+      given-names: "Nonso"
+      orcid: "https://orcid.org/0000-0002-5064-2621"
+      affiliation: "Edge Hill University"
+    - family-names: "Korkontzelos"
+      given-names: "Ioannis"
+      orcid: "https://orcid.org/0000-0001-8052-2471"
+      affiliation: "Edge Hill University"

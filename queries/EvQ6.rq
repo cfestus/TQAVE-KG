@@ -1,0 +1,23 @@
+# Evaluation question
+# Which relations are supported by evidence, and what confidence values are associated with them?
+
+PREFIX etd: <https://alfie-project.eu/etd-hub#>
+
+SELECT DISTINCT
+       ?relation
+       ?evidence
+       ?evidenceText
+       ?confidence
+WHERE {
+    ?relation a etd:Relation ;
+              etd:relation_kind ?kind ;
+              etd:hasEvidence ?evidence ;
+              etd:confidence ?confidence .
+
+    FILTER(STR(?kind) = "extracted_semantic")
+
+    OPTIONAL {
+        ?evidence etd:evidenceText ?evidenceText .
+    }
+}
+ORDER BY DESC(?confidence) ?relation ?evidence
