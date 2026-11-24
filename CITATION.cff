@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 message: "If you use this software or the TQAVE-KG knowledge graph, please cite the paper below."
-title: "TQAVE-KG: Provenance-Aware Knowledge Graph Construction from Expert-Contributed Q&A Discourse"
+title: "TQAVE-KG: Trustworthy and Provenance-Aware Knowledge Graph Construction from Expert-Contributed Q&A Discourse"
 authors:
   - family-names: "Uwasomba"
     given-names: "Chukwudi"
@@ -18,7 +18,7 @@ license: MIT
 repository-code: "https://github.com/cfestus/TQAVE-KG"
 preferred-citation:
   type: unpublished
-  title: "TQAVE-KG: Provenance-Aware Knowledge Graph Construction from Expert-Contributed Q&A Discourse"
+  title: "TQAVE-KG: Trustworthy and Provenance-Aware Knowledge Graph Construction from Expert-Contributed Q&A Discourse"
   authors:
     - family-names: "Uwasomba"
       given-names: "Chukwudi"
