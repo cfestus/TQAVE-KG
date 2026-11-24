@@ -1,6 +1,6 @@
 # Changelog
 
-## v1.0.0 — KBS reproducibility release
+## v1.0.0 — Reproducibility release
 
 - Released the frozen KG47 artefact used in the manuscript.
 - Added reproducibility documentation and reviewer verification instructions.
